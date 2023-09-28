@@ -22,3 +22,12 @@ There wont be a physical or on screen button to press for the player to move. If
 
 ## Difficulty
 The difficulty of the game will gradually increase as time goes on, with faster spawning moving obstacles.
+
+
+### Inspiration
+Source: https://play.google.com/store/apps/details?id=com.skgames.trafficrider&hl=en&gl=US
+![Traffic Rider](https://github.com/AMRN0/Mobile-Dev/assets/71776210/dfc94acb-317a-4c49-ba70-f9954fc87d5b)
+
+Source: https://play.google.com/store/apps/details?id=com.supercharge.bikerush.moto.traffic.rider&hl=en_US
+![Bike Rider](https://github.com/AMRN0/Mobile-Dev/assets/71776210/ecb20dd5-86cb-4096-ab1a-0fcf523281df)
+
