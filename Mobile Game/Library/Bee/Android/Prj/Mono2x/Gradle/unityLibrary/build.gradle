@@ -3,6 +3,9 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'com.candycoded.hapticfeedbacklibrary-release', ext:'aar')
+    implementation(name: 'UnityAds', ext:'aar')
+    implementation(name: 'UnityAdsAndroidPlugin', ext:'aar')
 
 }
 
