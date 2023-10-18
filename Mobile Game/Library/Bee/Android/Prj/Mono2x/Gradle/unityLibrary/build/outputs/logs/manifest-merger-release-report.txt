@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:70-98
 		INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:99-145
 	android:versionCode
 		INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:11-69
@@ -30,15 +30,15 @@ ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Be
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
 	android:screenOrientation
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-149
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-154
 	android:launchMode
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:150-181
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:155-186
 	android:hardwareAccelerated
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:399-434
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:404-439
 	android:resizeableActivity
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:364-398
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:369-403
 	android:configChanges
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:182-363
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:187-368
 	android:theme
 		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
 	android:name
@@ -137,30 +137,52 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-77
 	android:name
 		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:20-74
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-63
+	android:name
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-60
+uses-feature#android.hardware.camera
+ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-83
+	android:required
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:56-80
+	android:name
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-93
+	android:required
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:66-90
+	android:name
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-65
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-89
+	android:required
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:62-86
+	android:name
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-61
 uses-feature#android.hardware.sensor.accelerometer
-ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-97
+ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-97
 	android:required
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:70-94
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:70-94
 	android:name
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-69
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-69
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-88
+ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-88
 	android:required
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:61-85
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:61-85
 	android:name
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-60
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-99
+ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-99
 	android:required
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:72-96
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:72-96
 	android:name
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-71
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-108
+ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-108
 	android:required
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:81-105
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:81-105
 	android:name
-		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-80
+		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-80
 uses-sdk
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml

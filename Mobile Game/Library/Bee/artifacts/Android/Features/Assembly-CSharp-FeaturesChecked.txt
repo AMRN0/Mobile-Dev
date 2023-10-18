@@ -1,3 +1,4 @@
+UnityEngine.WebCamTexture
 UnityEngine.Handheld::Vibrate
 UnityEngine.Input::get_acceleration
 UnityEngine.Input::GetTouch

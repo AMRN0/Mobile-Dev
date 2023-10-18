@@ -21,6 +21,9 @@ android.permission.VIBRATE was added because:
 android.permission.ACCESS_NETWORK_STATE was added because:
 	UnityEngine.Application::get_internetReachability was present in:
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
+android.permission.CAMERA, android.hardware.camera (Auto Focus, Front) were added because:
+	UnityEngine.WebCamTexture was present in:
+		Assembly-CSharp-FeaturesChecked.txt
 android.hardware.sensor.accelerometer was added because:
 	UnityEngine.Input::get_acceleration was present in:
 		Assembly-CSharp-FeaturesChecked.txt
