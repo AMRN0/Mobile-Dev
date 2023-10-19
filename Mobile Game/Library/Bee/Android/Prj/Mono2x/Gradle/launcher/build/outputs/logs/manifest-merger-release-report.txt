@@ -6,8 +6,7 @@ INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 MERGED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-96:12
 MERGED from [:com.candycoded.hapticfeedbacklibrary-release:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\ee3c7376599324afb0f97f45a150bfb8\com.candycoded.hapticfeedbacklibrary-release\AndroidManifest.xml:2:1-11:12
-MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:2:1-35:12
-MERGED from [:UnityAdsAndroidPlugin:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\667ab3fdbf272abafc4d987f08307b17\UnityAdsAndroidPlugin\AndroidManifest.xml:2:1-11:12
+MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:2:1-36:12
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -45,8 +44,8 @@ application
 ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
 MERGED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:5-94:19
 MERGED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:5-94:19
-MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:12:5-33:19
-MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:12:5-33:19
+MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:13:5-34:19
+MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:13:5-34:19
 	android:extractNativeLibs
 		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:18-50
 	android:label
@@ -61,10 +60,8 @@ MERGED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobil
 MERGED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:8:5-10:41
 MERGED from [:com.candycoded.hapticfeedbacklibrary-release:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\ee3c7376599324afb0f97f45a150bfb8\com.candycoded.hapticfeedbacklibrary-release\AndroidManifest.xml:7:5-9:41
 MERGED from [:com.candycoded.hapticfeedbacklibrary-release:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\ee3c7376599324afb0f97f45a150bfb8\com.candycoded.hapticfeedbacklibrary-release\AndroidManifest.xml:7:5-9:41
-MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:5:5-7:41
-MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:5:5-7:41
-MERGED from [:UnityAdsAndroidPlugin:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\667ab3fdbf272abafc4d987f08307b17\UnityAdsAndroidPlugin\AndroidManifest.xml:7:5-9:41
-MERGED from [:UnityAdsAndroidPlugin:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\667ab3fdbf272abafc4d987f08307b17\UnityAdsAndroidPlugin\AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:5:5-7:41
+MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:5:5-7:41
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -87,8 +84,8 @@ ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile
 		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
 uses-permission#android.permission.INTERNET
 ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-67
-MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:10:5-67
-MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:10:5-67
+MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:10:5-67
+MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:10:5-67
 	android:name
 		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-64
 uses-permission#android.permission.VIBRATE
@@ -97,8 +94,8 @@ ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile
 		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-63
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-79
-MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:9:5-79
-MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:9:5-79
+MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:9:5-79
+MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-76
 uses-permission#android.permission.CAMERA
@@ -150,7 +147,7 @@ ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:9-65:20
 	android:screenOrientation
-		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-56
+		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-50
 	android:launchMode
 		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-44
 	android:hardwareAccelerated
@@ -235,43 +232,47 @@ action#android.intent.action.BOOT_COMPLETED
 ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:91:17-79
 	android:name
 		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:91:25-76
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:11:22-76
 activity#com.unity3d.services.ads.adunit.AdUnitActivity
-ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:13:9-17:74
+ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:14:9-18:74
 	android:hardwareAccelerated
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:16:13-47
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:17:13-47
 	android:configChanges
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:15:13-170
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:16:13-170
 	android:theme
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:17:13-71
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:18:13-71
 	android:name
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:14:13-74
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:15:13-74
 activity#com.unity3d.services.ads.adunit.AdUnitTransparentActivity
-ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:18:9-22:86
+ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:19:9-23:86
 	android:hardwareAccelerated
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:21:13-47
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:22:13-47
 	android:configChanges
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:20:13-170
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:21:13-170
 	android:theme
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:22:13-83
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:23:13-83
 	android:name
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:19:13-85
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:20:13-85
 activity#com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
-ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:23:9-27:86
+ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:24:9-28:86
 	android:hardwareAccelerated
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:26:13-48
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:27:13-48
 	android:configChanges
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:25:13-170
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:26:13-170
 	android:theme
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:27:13-83
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:28:13-83
 	android:name
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:24:13-93
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:25:13-93
 activity#com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
-ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:28:9-32:74
+ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:29:9-33:74
 	android:hardwareAccelerated
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:31:13-48
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:32:13-48
 	android:configChanges
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:30:13-170
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:31:13-170
 	android:theme
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:32:13-71
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:33:13-71
 	android:name
-		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:29:13-82
+		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:30:13-82

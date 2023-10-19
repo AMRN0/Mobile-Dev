@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638331637326505127
-    m_Hash: 592311508
+      ticks: 638333029771928840
+    m_Hash: 1436193603
   m_LockFileStatus:
     m_FilePath: C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638331637326572942
-    m_Hash: 907239864
+      ticks: 638333029772004417
+    m_Hash: 3217477436
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -231,23 +231,28 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.1
     nextVersion: 
-- packageId: com.unity.ads@3.7.5
+- packageId: com.unity.ads@4.4.2
   testable: 0
   isDirectDependency: 1
-  version: 3.7.5
+  version: 4.4.2
   source: 1
-  resolvedPath: C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\PackageCache\com.unity.ads@3.7.5
+  resolvedPath: C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\PackageCache\com.unity.ads@4.4.2
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
-  displayName: Advertisement
+  displayName: Advertisement Legacy
   author:
     name: 
     email: 
     url: 
   category: 
   type: asset
-  description: Unity Ads is a video ad network for iOS and Android that allows you
-    to quickly and effectively monetize your games.
+  description: "Connect your game to the Unity Ads Network for iOS and Android to
+    quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces
+    with ironSource and recommends using Unity LevelPlay for ad mediation (instead
+    of this package). \n\nThis package will still be supported but no longer updated.
+    To install Unity LevelPlay, use the Ads Mediation package (available below) or
+    the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported
+    platforms:\n- Android\n- iOS\n"
   status: 4
   errors: []
   versions:
@@ -332,13 +337,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637635162230000000
-  documentationUrl: 
+  datePublishedTicks: 638161229410000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
-    revision: 0e92fa56fc4e4cd1fa305e76a911acdae6386b96
+    url: https://github.com/Unity-Technologies/unity-ads-sdk.git
+    revision: 532b2db792ae728eedcc825080876b4e2c5f8544
     path: 
   unityLifecycle:
     version: 3.7.5

@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using CandyCoded;
 using CandyCoded.HapticFeedback;
 using UnityEngine.UI;
 
