@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638333029771928840
-    m_Hash: 1436193603
+      ticks: 638333558724796193
+    m_Hash: 1112573757
   m_LockFileStatus:
     m_FilePath: C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638333029772004417
-    m_Hash: 3217477436
+      ticks: 638333558724796193
+    m_Hash: 1721067510
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
