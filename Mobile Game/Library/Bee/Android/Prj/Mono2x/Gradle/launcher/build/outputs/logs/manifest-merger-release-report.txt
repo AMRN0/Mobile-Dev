@@ -7,6 +7,7 @@ INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library
 MERGED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-96:12
 MERGED from [:com.candycoded.hapticfeedbacklibrary-release:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\ee3c7376599324afb0f97f45a150bfb8\com.candycoded.hapticfeedbacklibrary-release\AndroidManifest.xml:2:1-11:12
 MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:2:1-36:12
+MERGED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:2:1-7:12
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -46,6 +47,10 @@ MERGED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobil
 MERGED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:5-94:19
 MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:13:5-34:19
 MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:13:5-34:19
+MERGED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:6:2-61
+MERGED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:6:2-61
+	android:requestLegacyExternalStorage
+		ADDED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:6:15-58
 	android:extractNativeLibs
 		ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:18-50
 	android:label
@@ -62,6 +67,8 @@ MERGED from [:com.candycoded.hapticfeedbacklibrary-release:] C:\Users\amnoo\.gra
 MERGED from [:com.candycoded.hapticfeedbacklibrary-release:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\ee3c7376599324afb0f97f45a150bfb8\com.candycoded.hapticfeedbacklibrary-release\AndroidManifest.xml:7:5-9:41
 MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:5:5-7:41
 MERGED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:5:5-7:41
+MERGED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:3:2-43
+MERGED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:3:2-43
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -71,6 +78,7 @@ INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library
 	android:minSdkVersion
 		INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 		ADDED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		MERGED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 uses-feature#0x00030000
 ADDED from [:unityLibrary] C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
@@ -276,3 +284,15 @@ ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e3
 		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:33:13-71
 	android:name
 		ADDED from [:UnityAds:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\6e396c89275ec6167b80267784f1713e\UnityAds\AndroidManifest.xml:30:13-82
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:4:2-98
+	tools:node
+		ADDED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:4:75-95
+	android:name
+		ADDED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:4:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:5:2-99
+	tools:node
+		ADDED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:5:76-96
+	android:name
+		ADDED from [:NativeGallery:] C:\Users\amnoo\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:5:19-75

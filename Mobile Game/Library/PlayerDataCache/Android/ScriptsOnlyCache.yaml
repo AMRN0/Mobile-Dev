@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - MainMenu
     - MoveByTouch
     - OverSettings
+    - PhoneCamera
     - PlayerSettings
     - gyroMovement
     - playerSettings
@@ -27,6 +28,8 @@ ScriptsOnlyBuild:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.Editor.dll:
+    - TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_Dropdown
@@ -45,12 +48,14 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.AspectRatioFitter
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
@@ -102,14 +107,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: QuitYes
-  - assembly: Assembly-CSharp
     fullTypeName: PlayerSettings
     methodName: SliderChange
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
-    methodName: HowToPlayBack
+    methodName: SettingsContinue
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: HowToPlayBack
@@ -117,23 +119,11 @@ ScriptsOnlyBuild:
     fullTypeName: PlayerSettings
     methodName: DropdownChange
   - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: Quit
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: howToPlay
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: play
-  - assembly: Assembly-CSharp
     fullTypeName: PlayerSettings
     methodName: GyroChange
   - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: QuitNo
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: settings
+    fullTypeName: PhoneCamera
+    methodName: TakePic
   - assembly: Assembly-CSharp
     fullTypeName: GameUI
     methodName: pauseClick
@@ -153,6 +143,65 @@ ScriptsOnlyBuild:
     fullTypeName: GameOver
     methodName: mainmenu
   sceneClasses:
+    Assets/Scenes/CameraScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1644}
+    - Class: 114
+      Script: {instanceID: 2516}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 3104}
+    - Class: 114
+      Script: {instanceID: 3446}
+    - Class: 114
+      Script: {instanceID: 5662}
+    - Class: 114
+      Script: {instanceID: 5734}
+    - Class: 114
+      Script: {instanceID: 6402}
+    - Class: 114
+      Script: {instanceID: 6500}
+    - Class: 114
+      Script: {instanceID: 6576}
+    - Class: 114
+      Script: {instanceID: 6954}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/GameScenes/GameOver.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -179,23 +228,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 2290}
+      Script: {instanceID: 2294}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 3100}
+      Script: {instanceID: 3104}
     - Class: 114
-      Script: {instanceID: 3442}
+      Script: {instanceID: 3446}
     - Class: 114
-      Script: {instanceID: 5730}
+      Script: {instanceID: 5734}
     - Class: 114
-      Script: {instanceID: 6398}
+      Script: {instanceID: 6402}
     - Class: 114
-      Script: {instanceID: 6572}
+      Script: {instanceID: 6576}
     - Class: 114
-      Script: {instanceID: 6950}
+      Script: {instanceID: 6954}
     - Class: 114
-      Script: {instanceID: 7658}
+      Script: {instanceID: 7662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -252,51 +301,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 1646}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 2664}
+      Script: {instanceID: 2668}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 3100}
+      Script: {instanceID: 3104}
     - Class: 114
-      Script: {instanceID: 3224}
+      Script: {instanceID: 3228}
     - Class: 114
-      Script: {instanceID: 3442}
+      Script: {instanceID: 3446}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 4346}
     - Class: 114
-      Script: {instanceID: 4628}
+      Script: {instanceID: 4632}
     - Class: 114
-      Script: {instanceID: 5184}
+      Script: {instanceID: 5188}
     - Class: 114
-      Script: {instanceID: 5568}
+      Script: {instanceID: 5572}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5632}
     - Class: 114
-      Script: {instanceID: 5642}
+      Script: {instanceID: 5646}
     - Class: 114
-      Script: {instanceID: 5730}
+      Script: {instanceID: 5734}
     - Class: 114
-      Script: {instanceID: 6398}
+      Script: {instanceID: 6402}
     - Class: 114
-      Script: {instanceID: 6572}
+      Script: {instanceID: 6576}
     - Class: 114
-      Script: {instanceID: 6950}
+      Script: {instanceID: 6954}
     - Class: 114
-      Script: {instanceID: 6964}
+      Script: {instanceID: 6968}
     - Class: 114
-      Script: {instanceID: 7794}
+      Script: {instanceID: 7798}
     - Class: 114
-      Script: {instanceID: 8156}
+      Script: {instanceID: 8160}
     - Class: 114
-      Script: {instanceID: 8176}
+      Script: {instanceID: 8180}
     - Class: 114
-      Script: {instanceID: 8696}
+      Script: {instanceID: 8700}
     - Class: 114
-      Script: {instanceID: 9032}
+      Script: {instanceID: 9036}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -347,43 +396,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 2370}
+      Script: {instanceID: 2374}
     - Class: 114
-      Script: {instanceID: 2718}
+      Script: {instanceID: 2722}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 3100}
+      Script: {instanceID: 3104}
     - Class: 114
-      Script: {instanceID: 3442}
+      Script: {instanceID: 3446}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 4346}
     - Class: 114
-      Script: {instanceID: 4484}
+      Script: {instanceID: 4488}
     - Class: 114
-      Script: {instanceID: 4614}
+      Script: {instanceID: 4618}
     - Class: 114
-      Script: {instanceID: 4904}
+      Script: {instanceID: 4908}
     - Class: 114
-      Script: {instanceID: 5568}
+      Script: {instanceID: 5572}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5632}
     - Class: 114
-      Script: {instanceID: 5730}
+      Script: {instanceID: 5734}
     - Class: 114
-      Script: {instanceID: 6398}
+      Script: {instanceID: 6402}
     - Class: 114
-      Script: {instanceID: 6572}
+      Script: {instanceID: 6576}
     - Class: 114
-      Script: {instanceID: 6950}
+      Script: {instanceID: 6954}
     - Class: 114
-      Script: {instanceID: 6964}
+      Script: {instanceID: 6968}
     - Class: 114
-      Script: {instanceID: 8176}
+      Script: {instanceID: 8180}
     - Class: 114
-      Script: {instanceID: 8562}
+      Script: {instanceID: 8566}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -565,7 +614,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5fe124ee83d67d25ee8b1e3768371168
+      Hash: b2f241845545ba71f84aa327fc116d22
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenu
@@ -1667,9 +1716,34 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeGallery.Runtime.dll
+    namespaceName: NativeGalleryNamespace
+    className: NGMediaSaveCallbackiOS
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeGallery.Runtime.dll
+    namespaceName: NativeGalleryNamespace
+    className: NGPermissionCallbackiOS
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeGallery.Runtime.dll
+    namespaceName: NativeGalleryNamespace
+    className: NGMediaReceiveCallbackiOS
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeGallery.Runtime.dll
+    namespaceName: NativeGalleryNamespace
+    className: NGCallbackHelper
   platform: 13
   scenePathNames:
   - Assets/Scenes/GameScenes/MainMenu.unity
+  - Assets/Scenes/CameraScene.unity
   - Assets/Scenes/GameScenes/MainGame.unity
   - Assets/Scenes/GameScenes/GameOver.unity
-  playerPath: C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Build/mainGameTest3.apk
+  playerPath: C:/Users/amnoo/Documents/Uni/Mobile/Build Testing/cameraTest3.apk

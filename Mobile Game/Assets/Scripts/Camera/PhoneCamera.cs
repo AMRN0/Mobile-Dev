@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using UnityEngine.SceneManagement;
+using NativeGalleryNamespace;
 
 public class PhoneCamera : MonoBehaviour
 {
@@ -89,8 +91,15 @@ public class PhoneCamera : MonoBehaviour
 
         byte[] bytes = photo.EncodeToPNG();
 
-        File.WriteAllBytes("Assets/Resources/textures/" + picName[count] + ".png", bytes);
+        //NativeGallery.SaveImageToGallery(bytes, "game", picName[count]);
+        NativeGallery.SaveImageToGallery(photo, "game", picName[count]);
+        //File.WriteAllBytes("Assets/Materials/" + picName[count] + ".png", bytes);
 
         count++;
+
+        if (count >= 4)
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }

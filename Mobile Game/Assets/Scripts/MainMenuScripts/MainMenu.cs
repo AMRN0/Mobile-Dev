@@ -4,58 +4,27 @@ using CandyCoded.HapticFeedback;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject quitPanel;
     public GameObject howToPlayPanel;
     public GameObject settingsPanel;
 
     private void Start()
     {
         Handheld.Vibrate();
-        quitPanel.SetActive(false);
-        howToPlayPanel.SetActive(false);
-        settingsPanel.SetActive(false);
-    }
-
-    public void play()
-    {
-        HapticFeedback.LightFeedback();
-        SceneManager.LoadScene(1);
-    }
-
-    public void howToPlay()
-    {
-        HapticFeedback.LightFeedback();
         howToPlayPanel.SetActive(true);
-    }
-
-    public void Quit()
-    {
-        HapticFeedback.LightFeedback();
-        quitPanel.SetActive(true);
-    }
-
-    public void QuitYes()
-    {
-        HapticFeedback.LightFeedback();
-        Application.Quit();
-    }
-
-    public void QuitNo()
-    {
-        quitPanel.SetActive(false);
-        HapticFeedback.LightFeedback();
+        settingsPanel.SetActive(false);
     }
 
     public void HowToPlayBack()
     {
         HapticFeedback.LightFeedback();
         howToPlayPanel.SetActive(false);
-        settingsPanel.SetActive(false);
+        settingsPanel.SetActive(true);
     }
 
-    public void settings()
+    public void SettingsContinue()
     {
         HapticFeedback.LightFeedback();
-        settingsPanel.SetActive(true);
+        settingsPanel.SetActive(false);
+        SceneManager.LoadScene(1);
     }
 }
