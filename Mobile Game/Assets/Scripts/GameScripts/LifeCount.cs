@@ -16,10 +16,5 @@ public class LifeCount : MonoBehaviour
 
         //liveImage[livesRemaining].gameObject.SetActive(false);
         liveImage[livesRemaining].enabled = false;
-
-        if (livesRemaining <= 0)
-        {
-            print("you lost");
-        }
     }
 }

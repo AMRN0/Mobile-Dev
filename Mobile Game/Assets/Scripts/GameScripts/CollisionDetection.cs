@@ -17,36 +17,20 @@ public class CollisionDetection : MonoBehaviour
         switch (PlayerPrefs.GetInt("vibration"))
         {
             case 0:
-                print("regular");
                 mEvent.AddListener(defaultFeedback);
                 break;
             case 1:
-                print("heavy");
                 mEvent.AddListener(HapticFeedbackHard);
                 break;
             case 2:
-                print("medium");
                 mEvent.AddListener(HapticFeedbackMedium);
                 break;
             case 3:
-                print("light");
                 mEvent.AddListener(HapticFeedbackLight);
                 break;
             default:
                 break;
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        mEvent.AddListener(HapticFeedbackHard);   
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void HapticFeedbackHard()
@@ -73,8 +57,6 @@ public class CollisionDetection : MonoBehaviour
         Destroy(other.gameObject);
 
         mEvent.Invoke();
-
-        print(livesRemaining);
 
         LoseLive();
     }

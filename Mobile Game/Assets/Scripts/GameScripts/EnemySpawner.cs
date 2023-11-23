@@ -35,7 +35,6 @@ public class EnemySpawner : MonoBehaviour
         if (startTime > intervalTime)
         {
             startTime = 0;
-            Debug.Log(true);
 
             SpawnEnemy();
 
