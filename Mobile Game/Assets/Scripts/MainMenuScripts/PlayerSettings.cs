@@ -37,12 +37,10 @@ public class PlayerSettings : MonoBehaviour
 
         if (PlayerPrefs.GetInt("gyro") == 1)
         {
-            print("on");
             gyroToggle.isOn = true;
         }
         else
         {
-            print("off");
             gyroToggle.isOn = false;
         }
     }
@@ -62,19 +60,15 @@ public class PlayerSettings : MonoBehaviour
         switch (vibrationDropdown.value)
         {
             case 0:
-                print("regular");
                 Handheld.Vibrate();
                 break;
             case 1:
-                print("heavy");
                 HapticFeedback.HeavyFeedback();
                 break;
             case 2:
-                print("medium");
                 HapticFeedback.MediumFeedback();
                 break;
             case 3:
-                print("light");
                 HapticFeedback.LightFeedback();
                 break;
             default:
@@ -88,12 +82,10 @@ public class PlayerSettings : MonoBehaviour
     {
         if (gyroToggle.isOn)
         {
-            print("on");
             PlayerPrefs.SetInt("gyro", 1);
         }
         else
         {
-            print("off");
             PlayerPrefs.SetInt("gyro", 0);
         }
 

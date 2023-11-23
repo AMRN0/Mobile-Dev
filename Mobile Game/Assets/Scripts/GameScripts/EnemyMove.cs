@@ -17,5 +17,10 @@ public class EnemyMove : MonoBehaviour
     void Update()
     {
         rb.AddForce(new Vector3(0, 0, -force));
+
+        if (transform.position.z <= -10.0f)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

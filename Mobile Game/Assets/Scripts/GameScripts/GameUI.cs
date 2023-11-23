@@ -51,19 +51,15 @@ public class GameUI : MonoBehaviour
         switch (vibrationDropdown.value)
         {
             case 0:
-                print("regular");
                 Handheld.Vibrate();
                 break;
             case 1:
-                print("heavy");
                 HapticFeedback.HeavyFeedback();
                 break;
             case 2:
-                print("medium");
                 HapticFeedback.MediumFeedback();
                 break;
             case 3:
-                print("light");
                 HapticFeedback.LightFeedback();
                 break;
             default:
