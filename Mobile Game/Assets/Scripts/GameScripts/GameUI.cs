@@ -72,6 +72,7 @@ public class GameUI : MonoBehaviour
     public void MainMenu()
     {
         PlayerPrefs.Save();
+        Time.timeScale = 1;
         SceneManager.LoadScene(2);
     }
 }

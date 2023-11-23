@@ -14,11 +14,7 @@ public class PhoneCamera : MonoBehaviour
     public RawImage background;
     public AspectRatioFitter fit;
 
-    private int count = 0;
-
-    //NativeGallery.MediaPickCallback callback;
-    private string[] picName = { "pic0", "pic1", "pic2", "pic3" };
-    public Material[] materials;
+    public Material material;
 
     private void Awake()
     {
@@ -94,35 +90,28 @@ public class PhoneCamera : MonoBehaviour
 
         background.rectTransform.localEulerAngles = new Vector3(0, 0, orient);
 
-        if (count >= 4)
+    }
+
+    IEnumerator Wait()
+    {
+        NativeGallery.GetImageFromGallery((callback) =>
         {
-            NativeGallery.Permission permission = NativeGallery.GetImageFromGallery((callback) =>
-            {
-                for (int i = 0; i < materials.Length; i++)
-                {
-                    Texture2D texture = NativeGallery.LoadImageAtPath(callback, 2);
+            Texture2D texture = NativeGallery.LoadImageAtPath(callback, 2);
+            material.mainTexture = texture;
 
-                    materials[i].mainTexture = texture;
-                }
+        }, "Select image to use as texture", "image/*");
 
-            }, "Select image to use as texture", "image/*");
+        backCam.Stop();
 
-            if (permission == NativeGallery.Permission.Granted)
-            {
-                SceneManager.LoadScene(2);
-            }
-        }
+
+        yield return new WaitForSecondsRealtime(2.0f);
+
+        SceneManager.LoadScene(2);
     }
 
     [ContextMenu("Take A PIC")]
     public void TakePic()
     {
-
-        if (count >= 4)
-        {
-            return;
-        }
-
         StartCoroutine(TakePhoto());
     }
 
@@ -130,12 +119,12 @@ public class PhoneCamera : MonoBehaviour
     {
         yield return new WaitForEndOfFrame();
 
-        Texture2D photo = new Texture2D(backCam.width, backCam.height);
+        Texture2D photo = new(backCam.width, backCam.height);
         photo.SetPixels(backCam.GetPixels());
         photo.Apply();
 
-        NativeGallery.SaveImageToGallery(photo, "game", picName[count]);
+        NativeGallery.SaveImageToGallery(photo, "game", "pic");
 
-        count++;
+        StartCoroutine(Wait());
     }
 }
