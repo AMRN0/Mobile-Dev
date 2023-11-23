@@ -337,6 +337,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   background: {fileID: 929273351}
   fit: {fileID: 929273350}
+  materials:
+  - {fileID: 2100000, guid: a7e8fea0200161c4bbb90e868fbfa603, type: 2}
+  - {fileID: 2100000, guid: 56324c74c1742c54fb93b150ce739ccb, type: 2}
+  - {fileID: 2100000, guid: f7dad0ab91662434d83730e04c8adc41, type: 2}
+  - {fileID: 2100000, guid: 2157ac68bd02fd64a999b33421c67e5a, type: 2}
 --- !u!114 &929273350
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -77,6 +77,6 @@ public class CollisionDetection : MonoBehaviour
     private void OnDestroy()
     {
         mEvent.RemoveAllListeners();
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
