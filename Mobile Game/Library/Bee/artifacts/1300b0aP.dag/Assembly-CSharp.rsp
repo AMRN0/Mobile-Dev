@@ -330,6 +330,8 @@
 "Assets/Scripts/hapticFeedback.cs"
 "Assets/Scripts/MainMenuScripts/MainMenu.cs"
 "Assets/Scripts/MainMenuScripts/PlayerSettings.cs"
+"Assets/Scripts/Weather/APICaller.cs"
+"Assets/Scripts/Weather/SimpleJSON.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

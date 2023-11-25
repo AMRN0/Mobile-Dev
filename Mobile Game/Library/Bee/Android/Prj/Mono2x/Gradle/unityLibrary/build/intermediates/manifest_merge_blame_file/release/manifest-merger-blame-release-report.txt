@@ -30,149 +30,166 @@
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 19-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-77
 19-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:20-74
-20    <uses-permission android:name="android.permission.CAMERA" />
-20-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-63
-20-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-60
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-77
+20-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-74
 21
 22    <uses-feature
-22-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-83
-23        android:name="android.hardware.camera"
-23-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-55
+22-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-89
+23        android:name="android.hardware.location.gps"
+23-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-61
 24        android:required="false" />
-24-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:56-80
+24-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:62-86
 25    <uses-feature
-25-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-93
-26        android:name="android.hardware.camera.autofocus"
-26-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-65
+25-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-85
+26        android:name="android.hardware.location"
+26-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-57
 27        android:required="false" />
-27-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:66-90
-28    <uses-feature
-28-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-89
-29        android:name="android.hardware.camera.front"
-29-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-61
-30        android:required="false" />
-30-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:62-86
+27-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:58-82
+28
+29    <uses-permission android:name="android.permission.CAMERA" />
+29-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-63
+29-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:20-60
+30
 31    <uses-feature
-31-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-97
-32        android:name="android.hardware.sensor.accelerometer"
-32-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-69
+31-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-83
+32        android:name="android.hardware.camera"
+32-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-55
 33        android:required="false" />
-33-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:70-94
+33-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:56-80
 34    <uses-feature
-34-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-88
-35        android:name="android.hardware.touchscreen"
-35-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-60
+34-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-93
+35        android:name="android.hardware.camera.autofocus"
+35-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-65
 36        android:required="false" />
-36-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:61-85
+36-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:66-90
 37    <uses-feature
-37-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-99
-38        android:name="android.hardware.touchscreen.multitouch"
-38-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-71
+37-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-89
+38        android:name="android.hardware.camera.front"
+38-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-61
 39        android:required="false" />
-39-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:72-96
+39-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:62-86
 40    <uses-feature
-40-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-108
-41        android:name="android.hardware.touchscreen.multitouch.distinct"
-41-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-80
+40-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-97
+41        android:name="android.hardware.sensor.accelerometer"
+41-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-69
 42        android:required="false" />
-42-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:81-105
-43
-44    <application android:extractNativeLibs="true" >
-44-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-23:17
-44-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
-45        <activity
-45-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
-46            android:name="com.unity3d.player.UnityPlayerActivity"
-46-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
-47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-47-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:181-362
-48            android:hardwareAccelerated="false"
-48-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:398-433
-49            android:launchMode="singleTask"
-49-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:149-180
-50            android:resizeableActivity="false"
-50-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:363-397
-51            android:screenOrientation="landscape"
-51-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-148
-52            android:theme="@style/UnityThemeSelector" >
-52-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
-53            <intent-filter>
-53-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
-54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
-54-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
-56-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
-57            </intent-filter>
-58
-59            <meta-data
-59-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
-60                android:name="unityplayer.UnityActivity"
-60-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
-61                android:value="true" />
-61-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
-62            <meta-data
-62-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
-63                android:name="android.notch_support"
-63-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
-64                android:value="true" />
-64-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
-65        </activity>
-66
-67        <meta-data
-67-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
-68            android:name="unity.splash-mode"
-68-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
-69            android:value="0" />
-69-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
-70        <meta-data
-70-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
-71            android:name="unity.splash-enable"
-71-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
-72            android:value="True" />
-72-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
-73        <meta-data
-73-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
-74            android:name="unity.launch-fullscreen"
-74-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
-75            android:value="True" />
-75-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+42-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:70-94
+43    <uses-feature
+43-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:3-88
+44        android:name="android.hardware.touchscreen"
+44-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:17-60
+45        android:required="false" />
+45-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:61-85
+46    <uses-feature
+46-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:3-99
+47        android:name="android.hardware.touchscreen.multitouch"
+47-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:17-71
+48        android:required="false" />
+48-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:72-96
+49    <uses-feature
+49-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:3-108
+50        android:name="android.hardware.touchscreen.multitouch.distinct"
+50-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:17-80
+51        android:required="false" />
+51-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:81-105
+52
+53    <application android:extractNativeLibs="true" >
+53-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-23:17
+53-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+54        <activity
+54-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+55            android:name="com.unity3d.player.UnityPlayerActivity"
+55-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+56            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+56-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:181-362
+57            android:hardwareAccelerated="false"
+57-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:398-433
+58            android:launchMode="singleTask"
+58-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:149-180
+59            android:resizeableActivity="false"
+59-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:363-397
+60            android:screenOrientation="landscape"
+60-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-148
+61            android:theme="@style/UnityThemeSelector" >
+61-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+62            <intent-filter>
+62-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+63-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+65-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+66            </intent-filter>
+67
+68            <meta-data
+68-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+69                android:name="unityplayer.UnityActivity"
+69-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+70                android:value="true" />
+70-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+71            <meta-data
+71-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+72                android:name="android.notch_support"
+72-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+73                android:value="true" />
+73-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+74        </activity>
+75
 76        <meta-data
-76-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
-77            android:name="unity.allow-resizable-window"
-77-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
-78            android:value="False" />
-78-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+76-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+77            android:name="unity.splash-mode"
+77-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+78            android:value="0" />
+78-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
 79        <meta-data
-79-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
-80            android:name="notch.config"
-80-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
-81            android:value="portrait|landscape" />
-81-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
-82
-83        <receiver
-83-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-113
-84            android:name="com.unity.androidnotifications.UnityNotificationManager"
-84-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:15-85
-85            android:exported="false" />
-85-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:86-110
-86        <receiver
-86-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-22:16
-87            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
-87-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:15-99
-88            android:enabled="false"
-88-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:100-123
-89            android:exported="false" >
-89-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:124-148
-90            <intent-filter>
-90-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:7-21:23
-91                <action android:name="android.intent.action.BOOT_COMPLETED" />
-91-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-71
-91-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-68
-92            </intent-filter>
-93        </receiver>
-94    </application>
-95
-96</manifest>
+79-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+80            android:name="unity.splash-enable"
+80-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+81            android:value="True" />
+81-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+82        <meta-data
+82-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+83            android:name="unity.launch-fullscreen"
+83-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+84            android:value="True" />
+84-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+85        <meta-data
+85-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+86            android:name="unity.allow-resizable-window"
+86-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+87            android:value="False" />
+87-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+88        <meta-data
+88-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+89            android:name="notch.config"
+89-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+90            android:value="portrait|landscape" />
+90-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+91
+92        <receiver
+92-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-113
+93            android:name="com.unity.androidnotifications.UnityNotificationManager"
+93-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:15-85
+94            android:exported="false" />
+94-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:86-110
+95        <receiver
+95-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-22:16
+96            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+96-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:15-99
+97            android:enabled="false"
+97-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:100-123
+98            android:exported="false" >
+98-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:124-148
+99            <intent-filter>
+99-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:7-21:23
+100                <action android:name="android.intent.action.BOOT_COMPLETED" />
+100-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-71
+100-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-68
+101            </intent-filter>
+102        </receiver>
+103    </application>
+104
+105</manifest>

@@ -6,17 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GameScenes/MainMenu.unity
-    guid: edb0ac9527aa4d04f83208931cda73a0
-  - enabled: 1
-    path: Assets/Scenes/GameScenes/CameraScene.unity
-    guid: c545077e5b1ee304f92d694effde008c
-  - enabled: 1
-    path: Assets/Scenes/GameScenes/MainGame.unity
-    guid: 6edbf6bb6fa0d4b4f866adfe1d9e9e42
-  - enabled: 1
-    path: Assets/Scenes/GameScenes/GameOver.unity
-    guid: fbe768cd474e29440a1bca1b25c95626
+    path: Assets/Scenes/Weather.unity
+    guid: 91aef564731052b4d84891a5f0d148b8
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
       guid: 4be14e43ad2722d48ae74aded1aa15e8, type: 2}

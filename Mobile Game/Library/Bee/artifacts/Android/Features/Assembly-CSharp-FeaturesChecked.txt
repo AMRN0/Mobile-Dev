@@ -1,5 +1,9 @@
 UnityEngine.WebCamTexture
+UnityEngine.Networking
+UnityEngine.Network
+UnityEngine.Networking.UnityWebRequest
 UnityEngine.Handheld::Vibrate
+UnityEngine.Input::get_location
 UnityEngine.Input::get_acceleration
 UnityEngine.Input::GetTouch
 UnityEngine.Input::get_touchCount
