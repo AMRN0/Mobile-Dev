@@ -369,6 +369,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Notifications.Android.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Notifications.iOS.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Notifications.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Notifications.Unified.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Profiling.Core.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.ref.dll"

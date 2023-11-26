@@ -341,14 +341,15 @@
 -r:"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.mobile.notifications@2.0.1/Runtime/Android/AndroidNotification.cs"
-"Library/PackageCache/com.unity.mobile.notifications@2.0.1/Runtime/Android/AndroidNotificationCallback.cs"
-"Library/PackageCache/com.unity.mobile.notifications@2.0.1/Runtime/Android/AndroidNotificationCenter.cs"
-"Library/PackageCache/com.unity.mobile.notifications@2.0.1/Runtime/Android/AndroidNotificationChannel.cs"
-"Library/PackageCache/com.unity.mobile.notifications@2.0.1/Runtime/Android/AndroidNotificationExtensions.cs"
-"Library/PackageCache/com.unity.mobile.notifications@2.0.1/Runtime/Android/AndroidNotificationIntentData.cs"
-"Library/PackageCache/com.unity.mobile.notifications@2.0.1/Runtime/Android/AndroidReceivedNotificationMainThreadDispatcher.cs"
-"Library/PackageCache/com.unity.mobile.notifications@2.0.1/Runtime/Android/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.mobile.notifications@2.3.0/Runtime/Android/AndroidNotification.cs"
+"Library/PackageCache/com.unity.mobile.notifications@2.3.0/Runtime/Android/AndroidNotificationCallback.cs"
+"Library/PackageCache/com.unity.mobile.notifications@2.3.0/Runtime/Android/AndroidNotificationCenter.cs"
+"Library/PackageCache/com.unity.mobile.notifications@2.3.0/Runtime/Android/AndroidNotificationChannel.cs"
+"Library/PackageCache/com.unity.mobile.notifications@2.3.0/Runtime/Android/AndroidNotificationExtensions.cs"
+"Library/PackageCache/com.unity.mobile.notifications@2.3.0/Runtime/Android/AndroidNotificationIntentData.cs"
+"Library/PackageCache/com.unity.mobile.notifications@2.3.0/Runtime/Android/AndroidReceivedNotificationMainThreadDispatcher.cs"
+"Library/PackageCache/com.unity.mobile.notifications@2.3.0/Runtime/Android/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.mobile.notifications@2.3.0/Runtime/Android/NotificationPermission.cs"
 -langversion:9.0
 
 /deterministic
