@@ -1,4 +1,4 @@
-#Sat Nov 25 15:54:31 GMT 2023
+#Sun Nov 26 19:43:47 GMT 2023
 base.0=C\:\\Users\\amnoo\\Documents\\Uni\\Mobile\\Mobile-Dev\\Mobile Game\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

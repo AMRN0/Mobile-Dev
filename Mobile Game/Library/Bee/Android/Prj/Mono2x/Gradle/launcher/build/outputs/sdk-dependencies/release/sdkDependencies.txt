@@ -14,15 +14,15 @@ library {
     artifactId: "UnityAds"
   }
   digests {
-    sha256: "\n\311sV\2426n\253\331\204+\274\021S\342\n\"\271H\344\236\336\033*8>\220\323T0\036\366"
+    sha256: "rb\241\221^\343\240` 0c\037\266x\277oh\255fv\315XF\020_\315S\300\272\332J="
   }
 }
 library {
   maven_library {
-    artifactId: "UnityAdsAndroidPlugin"
+    artifactId: "NativeGallery"
   }
   digests {
-    sha256: "i\363\366\217\371\355R\t\aX9V\333v\326E\242\005\352\252e\335\374\306yl>8I\250a\335"
+    sha256: "\034\257a\177\311H\214\367\237x\243\024\034p\242h\376\336r\20419+X \372W/p\356k\342"
   }
 }
 library {

@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638333558724796193
+      ticks: 638366238362549303
     m_Hash: 1112573757
   m_LockFileStatus:
     m_FilePath: C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638333558724796193
+      ticks: 638366238362549303
     m_Hash: 1721067510
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -892,6 +892,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -908,6 +909,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -3342,8 +3344,10 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     - 1.3.2
+    - 1.4.0
     compatible:
     - 1.3.2
+    - 1.4.0
     verified: 1.3.2
   dependencies: []
   resolvedDependencies: []
@@ -3527,6 +3531,8 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.10.1
     - 1.11.0
+    - 1.12.0
+    - 1.12.1
     compatible:
     - 1.4.0
     - 1.4.1
@@ -3541,6 +3547,8 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.10.1
     - 1.11.0
+    - 1.12.0
+    - 1.12.1
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest

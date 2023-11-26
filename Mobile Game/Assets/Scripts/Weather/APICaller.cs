@@ -13,13 +13,11 @@ public class APICaller : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI text;
 
-    [SerializeField] int currentAPIIndex;
-
     private float latitude, longitude;
 
-    [SerializeField] GameObject particle;
+    [SerializeField] GameObject[] conditions;
 
-    private void Start()
+    private void Awake()
     {
         if (!Input.location.isEnabledByUser)
         {
@@ -32,8 +30,10 @@ public class APICaller : MonoBehaviour
             return;
         }
         StartCoroutine(GetLatLong());
-
-        //Input.location.Start();
+    }
+    private void Start()
+    {
+        RequestAPI();
     }
 
     IEnumerator GetLatLong()
@@ -72,19 +72,8 @@ public class APICaller : MonoBehaviour
             }
         }
         Input.location.Stop();
-    }
 
-    private void OnMouseDown()
-    {
-        RequestAPI();
-    }
-
-    private void Update()
-    {
-        if (Input.touchCount > 0)
-        {
-            RequestAPI();
-        }
+        //RequestAPI();
     }
 
     public void RequestAPI()
@@ -96,22 +85,16 @@ public class APICaller : MonoBehaviour
     IEnumerator WaitForServerResponse()
     {
         routine = true;
-        UnityWebRequest req = UnityWebRequest.Get(url);
+        UnityWebRequest req;
 
-        if (currentAPIIndex == 1)
-        {
-            string weatherURL = url + "lat=" + latitude + "&lon=" + longitude + "&appid=" + apiKey;
-            print(weatherURL);
-            text.text = weatherURL;
-            req = UnityWebRequest.Get(weatherURL);
-        }
-        else req = UnityWebRequest.Get(url);
+        string weatherURL = url + "lat=" + latitude + "&lon=" + longitude + "&appid=" + apiKey;
+        print(weatherURL);
+        text.text = weatherURL;
+        req = UnityWebRequest.Get(weatherURL);
 
         string[] pages = req.url.Split('/');
         int page = pages.Length - 1;
         yield return req.SendWebRequest();
-
-        print(currentAPIIndex);
 
         switch (req.result)
         {
@@ -126,34 +109,73 @@ public class APICaller : MonoBehaviour
                 Debug.LogError(pages[page] + ": HTTP Error: " + req.error + " " + name);
                 break;
             case UnityWebRequest.Result.Success:
+                JSONNode info = JSON.Parse(req.downloadHandler.text);
+                string s = info["weather"].ToString().Substring(info["weather"].ToString().IndexOf("main") + 7, 10);
+                text.text = s.Substring(0, s.IndexOf("\""));
 
-                switch (currentAPIIndex)
+                switch (text.text)
                 {
-                    case 0:
-                        text.text = req.downloadHandler.text;
+                    case "Thunderstorm":
+                        conditions[0].SetActive(true);
                         break;
-                    case 1:
-                        JSONNode info = JSON.Parse(req.downloadHandler.text);
-                        string s = info["weather"].ToString().Substring(info["weather"].ToString().IndexOf("main") + 7, 10);
-                        text.text = s.Substring(0, s.IndexOf("\""));
-                        if (text.text == "Clouds")
+                    case "Drizzle":
+                        conditions[1].SetActive(true);
+                        break;
+                    case "Rain":
+                        conditions[2].SetActive(true);
+                        break;
+                    case "Clouds":
+                        conditions[3].SetActive(true);
+                        break;
+                    case "Clear":
+                        for (int i = 0; i < conditions.Length; i++)
                         {
-                            particle.SetActive(true);
+                            conditions[i].SetActive(false);
                         }
-
                         break;
-                    case 2:
-                        text.text = "huh?";
-
+                    case "Snow":
+                        conditions[4].SetActive(true);
                         break;
-
+                    case "Mist":
+                        conditions[5].SetActive(true);
+                        break;
+                    case "Dust":
+                        conditions[5].SetActive(true);
+                        break;
+                    case "Smoke":
+                        conditions[6].SetActive(true);
+                        break;
+                    case "Haze":
+                        conditions[5].SetActive(true);
+                        break;
+                    case "Fog":
+                        conditions[5].SetActive(true);
+                        break;
+                    case "Sand":
+                        conditions[7].SetActive(true);
+                        break;
+                    case "Ash":
+                        conditions[6].SetActive(true);
+                        break;
+                    case "Squall":
+                        conditions[0].SetActive(true);
+                        conditions[2].SetActive(true);
+                        conditions[4].SetActive(true);
+                        conditions[5].SetActive(true);
+                        break;
+                    case "Tornado":
+                        for (int i = 0; i < conditions.Length; i++)
+                        {
+                            conditions[i].SetActive(true);
+                        }
+                        break;
+                    default:
+                        break;
                 }
                 break;
             default:
                 break;
         }
-
-
         routine = false;
 
     }
