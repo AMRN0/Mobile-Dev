@@ -1,10 +1,8 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Networking;
 using TMPro;
 using SimpleJSON;
-using System;
 
 public class APICaller : MonoBehaviour
 {
@@ -18,6 +16,8 @@ public class APICaller : MonoBehaviour
     [SerializeField] int currentAPIIndex;
 
     private float latitude, longitude;
+
+    [SerializeField] GameObject particle;
 
     private void Start()
     {
@@ -136,6 +136,10 @@ public class APICaller : MonoBehaviour
                         JSONNode info = JSON.Parse(req.downloadHandler.text);
                         string s = info["weather"].ToString().Substring(info["weather"].ToString().IndexOf("main") + 7, 10);
                         text.text = s.Substring(0, s.IndexOf("\""));
+                        if (text.text == "Clouds")
+                        {
+                            particle.SetActive(true);
+                        }
 
                         break;
                     case 2:

@@ -5425,6 +5425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1832040030}
   currentAPIIndex: 1
+  particle: {fileID: 1491288895}
 --- !u!1 &1832040028
 GameObject:
   m_ObjectHideFlags: 0
