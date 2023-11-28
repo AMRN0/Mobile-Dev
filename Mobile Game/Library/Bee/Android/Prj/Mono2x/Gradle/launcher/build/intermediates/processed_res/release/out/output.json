@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.DefaultCompany.MobileGame",
+  "applicationId": "com.AMRN.BallDodge",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,9 +19,9 @@
       },
       "path": "resources-release.ap_",
       "properties": {
-        "packageId": "com.DefaultCompany.MobileGame",
+        "packageId": "com.AMRN.BallDodge",
         "split": "",
-        "minSdkVersion": "22"
+        "minSdkVersion": "23"
       }
     }
   ]

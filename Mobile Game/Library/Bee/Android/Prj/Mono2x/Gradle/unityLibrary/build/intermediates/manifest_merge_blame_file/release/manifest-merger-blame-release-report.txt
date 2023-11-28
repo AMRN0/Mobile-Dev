@@ -6,7 +6,7 @@
 6    android:versionName="1.0.2" >
 7
 8    <uses-sdk
-9        android:minSdkVersion="22"
+9        android:minSdkVersion="23"
 9-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="30" />
 10-->C:\Users\amnoo\Documents\Uni\Mobile\Mobile-Dev\Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml

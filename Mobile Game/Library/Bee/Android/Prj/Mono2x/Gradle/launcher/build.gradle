@@ -14,9 +14,9 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 22
+        minSdkVersion 23
         targetSdkVersion 30
-        applicationId 'com.DefaultCompany.MobileGame'
+        applicationId 'com.AMRN.BallDodge'
         ndk {
             abiFilters 'armeabi-v7a'
         }

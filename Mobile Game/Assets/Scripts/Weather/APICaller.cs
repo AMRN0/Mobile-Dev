@@ -6,7 +6,6 @@ using SimpleJSON;
 
 public class APICaller : MonoBehaviour
 {
-
     bool routine;
     private const string url = "api.openweathermap.org/data/2.5/weather?";
     private const string apiKey = "6902c2b5343c96b279c56b839be4cef4";
@@ -31,6 +30,8 @@ public class APICaller : MonoBehaviour
         }
         StartCoroutine(GetLatLong());
     }
+
+
     private void Start()
     {
         RequestAPI();
@@ -98,15 +99,17 @@ public class APICaller : MonoBehaviour
 
         switch (req.result)
         {
-
             case UnityWebRequest.Result.ConnectionError:
                 text.text = "connection error";
+                conditions[1].SetActive(true);
                 break;
             case UnityWebRequest.Result.DataProcessingError:
                 Debug.LogError(pages[page] + ": Error: " + req.error);
+                conditions[1].SetActive(true);
                 break;
             case UnityWebRequest.Result.ProtocolError:
                 Debug.LogError(pages[page] + ": HTTP Error: " + req.error + " " + name);
+                conditions[1].SetActive(true);
                 break;
             case UnityWebRequest.Result.Success:
                 JSONNode info = JSON.Parse(req.downloadHandler.text);
@@ -177,7 +180,5 @@ public class APICaller : MonoBehaviour
                 break;
         }
         routine = false;
-
     }
-
 }

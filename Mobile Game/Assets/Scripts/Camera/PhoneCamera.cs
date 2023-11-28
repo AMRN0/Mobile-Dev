@@ -1,9 +1,8 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using System.IO;
 using UnityEngine.SceneManagement;
-using NativeGalleryNamespace;
+using UnityEngine.Android;
 
 public class PhoneCamera : MonoBehaviour
 {
@@ -16,10 +15,25 @@ public class PhoneCamera : MonoBehaviour
 
     public Material material;
 
-    private void Awake()
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSplashScreen)]
+    private static void Awake()
     {
         NativeGallery.Permission readPermission = NativeGallery.CheckPermission(NativeGallery.PermissionType.Read, NativeGallery.MediaType.Image);
         NativeGallery.Permission writePermission = NativeGallery.CheckPermission(NativeGallery.PermissionType.Write, NativeGallery.MediaType.Image);
+
+       
+
+        //if (!Permission.HasUserAuthorizedPermission("android.permission.POST_NOTIFICATIONS"))
+        //{
+        //    Permission.RequestUserPermission("android.permission.POST_NOTIFICATIONS");
+        //}
+
+        if (!Input.location.isEnabledByUser)
+        {
+            
+        }
+
+        _ = WebCamTexture.devices;
 
         if (readPermission == NativeGallery.Permission.Denied || writePermission == NativeGallery.Permission.Denied)
         {

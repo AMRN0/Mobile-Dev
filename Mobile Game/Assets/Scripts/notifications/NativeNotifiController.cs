@@ -8,8 +8,13 @@ public class NativeNotifiController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        androidNotifController.RequestAuthorisation();
+        Application.quitting += Quitting;
+    }
+
+   
+    void Quitting()
+    {
         androidNotifController.RegisterNotificationChannel();
-        androidNotifController.SendNotification("Come Back", "Your Wife Misses You", 10);
+        androidNotifController.SendNotification("Come Back", "You need to beat your highscore", 10);
     }
 }

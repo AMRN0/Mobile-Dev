@@ -4,7 +4,8 @@ using UnityEngine.Android;
 
 public class AndroidNotifController : MonoBehaviour
 {
-    public void RequestAuthorisation()
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    public static void RequestAuthorisation()
     {
         if (!Permission.HasUserAuthorizedPermission("android.permission.POST_NOTIFICATIONS"))
         {
@@ -14,7 +15,7 @@ public class AndroidNotifController : MonoBehaviour
 
     public void RegisterNotificationChannel()
     {
-        AndroidNotificationChannel channel = new AndroidNotificationChannel()
+        AndroidNotificationChannel channel = new()
         {
             Id = "default_channel",
             Name = "Default Channel",
@@ -27,7 +28,7 @@ public class AndroidNotifController : MonoBehaviour
 
     public void SendNotification(string title, string text, int fireTimeInSeconds)
     {
-        AndroidNotification notification = new AndroidNotification();
+        AndroidNotification notification = new();
 
         notification.Title = title;
         notification.Text = text;

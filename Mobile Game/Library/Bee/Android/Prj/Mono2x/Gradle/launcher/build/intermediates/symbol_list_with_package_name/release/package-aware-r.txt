@@ -1,4 +1,4 @@
-com.DefaultCompany.MobileGame
+com.AMRN.BallDodge
 id unitySurfaceView
 mipmap app_icon
 mipmap app_icon_round

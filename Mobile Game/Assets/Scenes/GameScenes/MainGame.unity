@@ -195,6 +195,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3650485381044939646, guid: 400e714128de90f44a435eca5281fb10,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 400e714128de90f44a435eca5281fb10, type: 3}
 --- !u!4 &30743575 stripped
@@ -349,6 +354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 386433523995861989, guid: c30d7d9af1c26024ca140997d59b19c3,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 386433523995861995, guid: c30d7d9af1c26024ca140997d59b19c3,
         type: 3}
@@ -2599,6 +2609,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6477893744444946106, guid: d1c9b5b5a6b9ca940a76224354ff500a,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477893744444946106, guid: d1c9b5b5a6b9ca940a76224354ff500a,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6477893744444946109, guid: d1c9b5b5a6b9ca940a76224354ff500a,
         type: 3}
       propertyPath: m_RootOrder
@@ -3368,6 +3388,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644941696702866476, guid: 4db3d4e9c12f7454aaed026fd2a45788,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4db3d4e9c12f7454aaed026fd2a45788, type: 3}
