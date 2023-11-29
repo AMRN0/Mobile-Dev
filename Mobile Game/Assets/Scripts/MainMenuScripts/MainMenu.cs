@@ -25,6 +25,14 @@ public class MainMenu : MonoBehaviour
     {
         HapticFeedback.LightFeedback();
         settingsPanel.SetActive(false);
-        SceneManager.LoadScene(1);
+        if (PlayerPrefs.GetInt("picture") == 1)
+        {
+            SceneManager.LoadScene(1);
+        }
+        else
+        {
+            SceneManager.LoadScene(2);
+        }
+        
     }
 }

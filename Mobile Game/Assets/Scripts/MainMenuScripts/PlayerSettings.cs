@@ -6,6 +6,7 @@ using CandyCoded.HapticFeedback;
 public class PlayerSettings : MonoBehaviour
 {
     public Toggle gyroToggle;
+    public Toggle picToggle;
     public TMP_Dropdown vibrationDropdown;
     public Slider volumeSlider;
 
@@ -28,6 +29,11 @@ public class PlayerSettings : MonoBehaviour
             PlayerPrefs.SetInt("gyro", 1);
         }
 
+        if (!PlayerPrefs.HasKey("picture"))
+        {
+            PlayerPrefs.SetInt("picture", 1);
+        }
+
         PlayerPrefs.Save();
 
         audioSource.volume = PlayerPrefs.GetFloat("volume");
@@ -42,6 +48,15 @@ public class PlayerSettings : MonoBehaviour
         else
         {
             gyroToggle.isOn = false;
+        }
+
+        if (PlayerPrefs.GetInt("picture") == 1)
+        {
+            picToggle.isOn = true;
+        }
+        else
+        {
+            picToggle.isOn = false;
         }
     }
 
@@ -72,6 +87,7 @@ public class PlayerSettings : MonoBehaviour
                 HapticFeedback.LightFeedback();
                 break;
             default:
+                Handheld.Vibrate();
                 break;
         }
 
@@ -87,6 +103,20 @@ public class PlayerSettings : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("gyro", 0);
+        }
+
+        PlayerPrefs.Save();
+    }
+
+    public void TakePicture()
+    {
+        if (picToggle.isOn)
+        {
+            PlayerPrefs.SetInt("picture", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("picture", 0);
         }
 
         PlayerPrefs.Save();

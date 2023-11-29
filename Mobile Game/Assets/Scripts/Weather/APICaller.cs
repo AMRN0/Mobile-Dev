@@ -12,7 +12,7 @@ public class APICaller : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI text;
 
-    private float latitude, longitude;
+    private double latitude, longitude;
 
     [SerializeField] GameObject[] conditions;
 
@@ -23,8 +23,8 @@ public class APICaller : MonoBehaviour
             text.text = "Location not enabled on device or app does not have permission to access location";
             print("Location not enabled on device or app does not have permission to access location");
 
-            latitude = 52.44f;
-            longitude = 1.85f;
+            latitude = 52.4862;
+            longitude = -1.8904;
 
             return;
         }
@@ -34,6 +34,10 @@ public class APICaller : MonoBehaviour
 
     private void Start()
     {
+        //if (!Input.location.isEnabledByUser)
+        //{
+        //    return;
+        //}
         RequestAPI();
     }
 
@@ -63,7 +67,7 @@ public class APICaller : MonoBehaviour
             latitude = (float)Input.location.lastData.latitude;
             longitude = (float)Input.location.lastData.longitude;
 
-            text.text = "lat: " + latitude + " long: " + longitude;
+            text.text = latitude + "," + longitude + "," + Input.location.lastData.horizontalAccuracy + "," + Input.location.lastData.verticalAccuracy;
 
             if (latitude.ToString() != "0")
             {
@@ -73,8 +77,6 @@ public class APICaller : MonoBehaviour
             }
         }
         Input.location.Stop();
-
-        //RequestAPI();
     }
 
     public void RequestAPI()
@@ -115,6 +117,10 @@ public class APICaller : MonoBehaviour
                 JSONNode info = JSON.Parse(req.downloadHandler.text);
                 string s = info["weather"].ToString().Substring(info["weather"].ToString().IndexOf("main") + 7, 10);
                 text.text = s.Substring(0, s.IndexOf("\""));
+
+                print("The location is: " + info["weather"]["0"]["main"]);
+
+                //text.text = latitude + "," + longitude + "," + Input.location.lastData.horizontalAccuracy + "," + Input.location.lastData.verticalAccuracy;
 
                 switch (text.text)
                 {
@@ -173,6 +179,7 @@ public class APICaller : MonoBehaviour
                         }
                         break;
                     default:
+                        conditions[1].SetActive(true);
                         break;
                 }
                 break;

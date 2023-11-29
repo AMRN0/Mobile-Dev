@@ -28,10 +28,10 @@ public class PhoneCamera : MonoBehaviour
         //    Permission.RequestUserPermission("android.permission.POST_NOTIFICATIONS");
         //}
 
-        if (!Input.location.isEnabledByUser)
-        {
+        //if (!Input.location.isEnabledByUser)
+        //{
             
-        }
+        //}
 
         _ = WebCamTexture.devices;
 
