@@ -1,3 +1,4 @@
+#if UNITY_ANDROID
 using Unity.Notifications.Android;
 using UnityEngine;
 using UnityEngine.Android;
@@ -37,3 +38,4 @@ public class AndroidNotifController : MonoBehaviour
         AndroidNotificationCenter.SendNotification(notification, channelId: "default_channel");
     }
 }
+#endif

@@ -8,7 +8,10 @@ public class NativeNotifiController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+#if UNITY_ANDROID
         androidNotifController.RegisterNotificationChannel();
+#endif
+
         Application.quitting += Quitting;
     }
 
@@ -26,10 +29,10 @@ public class NativeNotifiController : MonoBehaviour
         Quitting();
     }
 
-    private void OnApplicationPause(bool pause)
-    {
-        if (!pause) return;
+    //private void OnApplicationPause(bool pause)
+    //{
+    //    if (!pause) return;
 
-        Quitting();
-    }
+    //    Quitting();
+    //}
 }
