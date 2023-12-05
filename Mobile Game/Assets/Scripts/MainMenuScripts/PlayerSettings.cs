@@ -34,6 +34,11 @@ public class PlayerSettings : MonoBehaviour
             PlayerPrefs.SetInt("picture", 1);
         }
 
+        if (!PlayerPrefs.HasKey("ProfilePic"))
+        {
+            PlayerPrefs.SetString("ProfilePic", null);
+        }
+
         PlayerPrefs.Save();
 
         audioSource.volume = PlayerPrefs.GetFloat("volume");

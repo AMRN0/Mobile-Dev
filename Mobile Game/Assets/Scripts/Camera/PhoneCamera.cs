@@ -21,18 +21,6 @@ public class PhoneCamera : MonoBehaviour
         NativeGallery.Permission readPermission = NativeGallery.CheckPermission(NativeGallery.PermissionType.Read, NativeGallery.MediaType.Image);
         NativeGallery.Permission writePermission = NativeGallery.CheckPermission(NativeGallery.PermissionType.Write, NativeGallery.MediaType.Image);
 
-       
-
-        //if (!Permission.HasUserAuthorizedPermission("android.permission.POST_NOTIFICATIONS"))
-        //{
-        //    Permission.RequestUserPermission("android.permission.POST_NOTIFICATIONS");
-        //}
-
-        //if (!Input.location.isEnabledByUser)
-        //{
-            
-        //}
-
         _ = WebCamTexture.devices;
 
         if (readPermission == NativeGallery.Permission.Denied || writePermission == NativeGallery.Permission.Denied)
@@ -110,7 +98,7 @@ public class PhoneCamera : MonoBehaviour
     {
         NativeGallery.GetImageFromGallery((callback) =>
         {
-            Texture2D texture = NativeGallery.LoadImageAtPath(callback, 2);
+            Texture2D texture = NativeGallery.LoadImageAtPath(callback, 2, true, false, true);
             material.mainTexture = texture;
 
         }, "Select image to use as texture", "image/*");
