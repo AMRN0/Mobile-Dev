@@ -3,7 +3,7 @@
     package="com.AMRN.BallDodge"
     android:installLocation="preferExternal"
     android:targetSandboxVersion="2"
-    android:versionCode="7"
+    android:versionCode="8"
     android:versionName="1.0.0" >
 
     <uses-sdk
@@ -85,9 +85,6 @@
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
-            <meta-data
-                android:name="android.notch_support"
-                android:value="true" />
         </activity>
 
         <meta-data
@@ -102,9 +99,6 @@
         <meta-data
             android:name="unity.allow-resizable-window"
             android:value="False" />
-        <meta-data
-            android:name="notch.config"
-            android:value="portrait|landscape" />
 
         <receiver
             android:name="com.unity.androidnotifications.UnityNotificationManager"
