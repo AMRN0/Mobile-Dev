@@ -11239,8 +11239,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerSettings__ctor_m39A0B46BF56FADE4A9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void AndroidNotifController::RequestAuthorisation()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNotifController_RequestAuthorisation_m8B6811F52CA2E2C27ABA89FCF4886F5624858C76 (const RuntimeMethod* method) 
+// System.Void AndroidNotifController::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNotifController_Start_m01B764F293CF88E58AF66CAA55A70B48B5E7EE4E (AndroidNotifController_t9E5779A0323862F78990D8C6EF3FB64456ECD1AD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

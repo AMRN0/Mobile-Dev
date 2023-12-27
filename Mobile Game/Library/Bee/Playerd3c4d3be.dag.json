@@ -1406,8 +1406,7 @@
         1398,
         1399,
         1400,
-        1401,
-        1402
+        1401
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -1700,7 +1699,7 @@
     },
     {
       "Annotation": "UnityLinker Library/Bee/artifacts/Android/ManagedStripped",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.4f1\\Editor\\Data\\il2cpp/build/deploy/UnityLinker.exe\" --search-directory=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\" --out=\"Library/Bee/artifacts/Android/ManagedStripped\" --include-link-xml=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\\MethodsToPreserve.xml\" --include-link-xml=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\\TypesInScenes.xml\" --include-link-xml=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\\SerializedTypes.xml\" --include-link-xml=\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/AndroidNativeLink.xml\" --include-directory=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\" --dotnetprofile=unityaot-linux --dotnetruntime=Il2Cpp --platform=Android --use-editor-options --enable-engine-module-stripping --engine-stripping-flag=EnableUnityConnect --engine-modules-asset-file=\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/modules.asset\" --editor-data-file=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/UnityEngine.Advertisements.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Unity.AdaptivePerformance.Google.Android.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/NativeGallery.Runtime.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Unity.AdaptivePerformance.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Unity.AdaptivePerformance.Samsung.Android.dll\" --print-command-line",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.4f1\\Editor\\Data\\il2cpp/build/deploy/UnityLinker.exe\" --search-directory=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\" --out=\"Library/Bee/artifacts/Android/ManagedStripped\" --include-link-xml=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\\MethodsToPreserve.xml\" --include-link-xml=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\\TypesInScenes.xml\" --include-link-xml=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\\SerializedTypes.xml\" --include-link-xml=\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/AndroidNativeLink.xml\" --include-directory=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed\" --dotnetprofile=unityaot-linux --dotnetruntime=Il2Cpp --platform=Android --use-editor-options --enable-engine-module-stripping --engine-stripping-flag=EnableUnityConnect --engine-modules-asset-file=\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/modules.asset\" --editor-data-file=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Unity.AdaptivePerformance.Google.Android.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/NativeGallery.Runtime.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Unity.AdaptivePerformance.dll\" --include-unity-root-assembly=\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Unity.AdaptivePerformance.Samsung.Android.dll\" --print-command-line",
       "Inputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Accessibility.dll",
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
@@ -26877,20 +26876,6 @@
       "DebugActionIndex": 1265
     },
     {
-      "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
-      ],
-      "Outputs": [
-        "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
-      ],
-      "ToBuildDependencies": [
-        27
-      ],
-      "DebugActionIndex": 1266
-    },
-    {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -26902,7 +26887,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1267
+      "DebugActionIndex": 1266
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -26916,7 +26901,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1268
+      "DebugActionIndex": 1267
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/NativeGallery.Runtime.dll",
@@ -26930,7 +26915,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1269
+      "DebugActionIndex": 1268
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/NativeGallery.Runtime.pdb",
@@ -26944,7 +26929,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1270
+      "DebugActionIndex": 1269
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -26958,7 +26943,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1271
+      "DebugActionIndex": 1270
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -26972,7 +26957,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1272
+      "DebugActionIndex": 1271
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -26986,7 +26971,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1273
+      "DebugActionIndex": 1272
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -27000,7 +26985,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1274
+      "DebugActionIndex": 1273
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.AdaptivePerformance.dll",
@@ -27014,7 +26999,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1275
+      "DebugActionIndex": 1274
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.AdaptivePerformance.Google.Android.dll",
@@ -27028,7 +27013,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1276
+      "DebugActionIndex": 1275
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.AdaptivePerformance.Google.Android.pdb",
@@ -27042,7 +27027,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1277
+      "DebugActionIndex": 1276
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.AdaptivePerformance.pdb",
@@ -27056,7 +27041,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1278
+      "DebugActionIndex": 1277
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.AdaptivePerformance.Samsung.Android.dll",
@@ -27070,7 +27055,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1279
+      "DebugActionIndex": 1278
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.AdaptivePerformance.Samsung.Android.pdb",
@@ -27084,7 +27069,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1280
+      "DebugActionIndex": 1279
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Notifications.Android.dll",
@@ -27098,7 +27083,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1281
+      "DebugActionIndex": 1280
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Notifications.Android.pdb",
@@ -27112,7 +27097,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1282
+      "DebugActionIndex": 1281
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Profiling.Core.dll",
@@ -27126,7 +27111,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1283
+      "DebugActionIndex": 1282
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Profiling.Core.pdb",
@@ -27140,7 +27125,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1284
+      "DebugActionIndex": 1283
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll",
@@ -27154,7 +27139,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1285
+      "DebugActionIndex": 1284
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb",
@@ -27168,7 +27153,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1286
+      "DebugActionIndex": 1285
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -27182,7 +27167,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1287
+      "DebugActionIndex": 1286
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Core.dll",
@@ -27196,7 +27181,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1288
+      "DebugActionIndex": 1287
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Core.pdb",
@@ -27210,7 +27195,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1289
+      "DebugActionIndex": 1288
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Flow.dll",
@@ -27224,7 +27209,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1290
+      "DebugActionIndex": 1289
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Flow.pdb",
@@ -27238,7 +27223,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1291
+      "DebugActionIndex": 1290
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Advertisements.dll",
@@ -27252,7 +27237,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1292
+      "DebugActionIndex": 1291
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Advertisements.pdb",
@@ -27266,7 +27251,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1293
+      "DebugActionIndex": 1292
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AIModule.dll",
@@ -27280,7 +27265,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1294
+      "DebugActionIndex": 1293
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AIModule.pdb",
@@ -27294,7 +27279,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1295
+      "DebugActionIndex": 1294
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -27308,7 +27293,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1296
+      "DebugActionIndex": 1295
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -27322,7 +27307,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1297
+      "DebugActionIndex": 1296
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -27336,7 +27321,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1298
+      "DebugActionIndex": 1297
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -27350,7 +27335,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1299
+      "DebugActionIndex": 1298
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -27364,7 +27349,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1300
+      "DebugActionIndex": 1299
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -27378,7 +27363,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1301
+      "DebugActionIndex": 1300
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -27392,7 +27377,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1302
+      "DebugActionIndex": 1301
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -27406,7 +27391,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1303
+      "DebugActionIndex": 1302
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -27420,7 +27405,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1304
+      "DebugActionIndex": 1303
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -27434,7 +27419,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1305
+      "DebugActionIndex": 1304
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -27448,7 +27433,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1306
+      "DebugActionIndex": 1305
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ImageConversionModule.dll",
@@ -27462,7 +27447,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1307
+      "DebugActionIndex": 1306
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ImageConversionModule.pdb",
@@ -27476,7 +27461,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1308
+      "DebugActionIndex": 1307
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -27490,7 +27475,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1309
+      "DebugActionIndex": 1308
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -27504,7 +27489,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1310
+      "DebugActionIndex": 1309
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -27518,7 +27503,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1311
+      "DebugActionIndex": 1310
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -27532,7 +27517,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1312
+      "DebugActionIndex": 1311
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -27546,7 +27531,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1313
+      "DebugActionIndex": 1312
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -27560,7 +27545,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1314
+      "DebugActionIndex": 1313
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -27574,7 +27559,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1315
+      "DebugActionIndex": 1314
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.pdb",
@@ -27588,7 +27573,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1316
+      "DebugActionIndex": 1315
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -27602,7 +27587,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1317
+      "DebugActionIndex": 1316
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -27616,7 +27601,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1318
+      "DebugActionIndex": 1317
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -27630,7 +27615,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1319
+      "DebugActionIndex": 1318
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -27644,7 +27629,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1320
+      "DebugActionIndex": 1319
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -27658,7 +27643,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1321
+      "DebugActionIndex": 1320
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -27672,7 +27657,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1322
+      "DebugActionIndex": 1321
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -27686,7 +27671,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1323
+      "DebugActionIndex": 1322
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -27700,7 +27685,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1324
+      "DebugActionIndex": 1323
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -27714,7 +27699,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1325
+      "DebugActionIndex": 1324
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll",
@@ -27728,7 +27713,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1326
+      "DebugActionIndex": 1325
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -27742,7 +27727,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1327
+      "DebugActionIndex": 1326
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -27756,7 +27741,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1328
+      "DebugActionIndex": 1327
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -27770,7 +27755,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1329
+      "DebugActionIndex": 1328
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -27784,7 +27769,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1330
+      "DebugActionIndex": 1329
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -27798,7 +27783,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1331
+      "DebugActionIndex": 1330
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -27812,7 +27797,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1332
+      "DebugActionIndex": 1331
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -27826,7 +27811,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1333
+      "DebugActionIndex": 1332
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -27840,7 +27825,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1334
+      "DebugActionIndex": 1333
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -27854,7 +27839,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1335
+      "DebugActionIndex": 1334
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -27868,7 +27853,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1336
+      "DebugActionIndex": 1335
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -27882,7 +27867,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1337
+      "DebugActionIndex": 1336
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -27896,7 +27881,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1338
+      "DebugActionIndex": 1337
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -27910,7 +27895,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1339
+      "DebugActionIndex": 1338
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -27924,7 +27909,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1340
+      "DebugActionIndex": 1339
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsNativeModule.pdb",
@@ -27938,7 +27923,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1341
+      "DebugActionIndex": 1340
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -27952,7 +27937,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1342
+      "DebugActionIndex": 1341
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -27966,7 +27951,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1343
+      "DebugActionIndex": 1342
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -27980,7 +27965,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1344
+      "DebugActionIndex": 1343
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.pdb",
@@ -27994,7 +27979,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1345
+      "DebugActionIndex": 1344
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -28008,7 +27993,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1346
+      "DebugActionIndex": 1345
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -28022,7 +28007,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1347
+      "DebugActionIndex": 1346
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -28036,7 +28021,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1348
+      "DebugActionIndex": 1347
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
@@ -28050,7 +28035,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1349
+      "DebugActionIndex": 1348
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -28064,7 +28049,7 @@
       "ToBuildDependencies": [
         27
       ],
-      "DebugActionIndex": 1350
+      "DebugActionIndex": 1349
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -28075,18 +28060,18 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 1351
+      "DebugActionIndex": 1350
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_3o7u.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles+Arguments\":{\"ProjectPath\":\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"Architectures\":\"ARMv7, ARM64\",\"BuildSystem\":\"Gradle\",\"GradleProjectCreateInfo\":{\"HostPlatform\":\"Windows\",\"ApplicationType\":\"AppBundle\",\"BuildType\":\"Release\",\"AndroidSDKPath\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.4f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\",\"AndroidNDKPath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\",\"PreferredHeapSizeForJVM\":4096,\"UnityLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\mainTemplate.gradle\",\"LauncherTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\launcherTemplate.gradle\",\"BaseProjectTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\baseProjectTemplate.gradle\",\"GradlePropertiesTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\gradleTemplate.properties\",\"GradleLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\libTemplate.gradle\",\"ProguardUserPath\":\"\",\"SettingsTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\settingsTemplate.gradle\",\"BuildTools\":\"30.0.2\",\"TargetSDKVersion\":33,\"MinSDKVersion\":23,\"PackageName\":\"com.AMRN.BallDodge\",\"Architectures\":\"ARMv7, ARM64\",\"BuildApkPerCpuArchitecture\":false,\"VersionCode\":4,\"VersionName\":\"1.0.0\",\"Minify\":0,\"NoCompressOptions\":{\"RelativeFilePaths\":[],\"FileExtensions\":[\".json\"]},\"UseCustomKeystore\":true,\"KeystorePath\":\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/user.keystore\",\"KeystoreName\":\"user.keystore\",\"KeystorePassword\":\"jeff_hardy777\",\"KeystoreAliasName\":\"upload\",\"KeystoreAliasPassword\":\"jeff_hardy777\",\"ScriptingImplementation\":\"IL2CPP\",\"AndroidLibraries\":[],\"AARFiles\":[\"Library/PackageCache/xyz.candycoded.hapticfeedback@4597a0376e/Plugins/Android/com.candycoded.hapticfeedbacklibrary-release.aar\",\"Library/PackageCache/com.unity.ads@4.4.2/Plugins/Android/UnityAds.aar\",\"Assets/Plugins/NativeGallery/Android/NativeGallery.aar\"],\"BuiltinJavaSourcePaths\":[\"com/unity3d/player/UnityPlayerActivity.java\"],\"JavaSourcePaths\":[{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationManagerOreo.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/NotificationCallback.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationManager.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationUtilities.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationRestartOnBootReceiver.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.adaptiveperformance.samsung.android/Runtime/Plugins/Android/com/unity3d/adaptiveperformance/samsung/GameLoadBooster.java\",\"PackageName\":\"com.unity3d.adaptiveperformance.samsung\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/NotificationChannelWrapper.java\",\"PackageName\":\"com.unity.androidnotifications\"}],\"KotlinSourcePaths\":[],\"PlayerPackage\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer\",\"PlayerPackageTools\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\",\"SymlinkSources\":false,\"InstallIntoBuildsFolder\":false,\"UnityPath\":\"\",\"UnityProjectPath\":\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game\",\"Dependencies\":[]}},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.4f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build.gradle\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle.properties\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/local.properties\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/settings.gradle\"],\"inputs\":[\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/mainTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/launcherTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/baseProjectTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/gradleTemplate.properties\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/libTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/settingsTemplate.gradle\"],\"targetDirectories\":[]}}",
+      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles+Arguments\":{\"ProjectPath\":\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"Architectures\":\"ARMv7, ARM64\",\"BuildSystem\":\"Gradle\",\"GradleProjectCreateInfo\":{\"HostPlatform\":\"Windows\",\"ApplicationType\":\"AppBundle\",\"BuildType\":\"Release\",\"AndroidSDKPath\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.4f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\",\"AndroidNDKPath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\",\"PreferredHeapSizeForJVM\":4096,\"UnityLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\mainTemplate.gradle\",\"LauncherTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\launcherTemplate.gradle\",\"BaseProjectTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\baseProjectTemplate.gradle\",\"GradlePropertiesTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\gradleTemplate.properties\",\"GradleLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\libTemplate.gradle\",\"ProguardUserPath\":\"\",\"SettingsTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\settingsTemplate.gradle\",\"BuildTools\":\"30.0.2\",\"TargetSDKVersion\":33,\"MinSDKVersion\":33,\"PackageName\":\"com.AMRN.BallDodge\",\"Architectures\":\"ARMv7, ARM64\",\"BuildApkPerCpuArchitecture\":false,\"VersionCode\":7,\"VersionName\":\"1.0.0\",\"Minify\":0,\"NoCompressOptions\":{\"RelativeFilePaths\":[],\"FileExtensions\":[\".json\"]},\"UseCustomKeystore\":true,\"KeystorePath\":\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/user.keystore\",\"KeystoreName\":\"user.keystore\",\"KeystorePassword\":\"jeff_hardy777\",\"KeystoreAliasName\":\"upload\",\"KeystoreAliasPassword\":\"jeff_hardy777\",\"ScriptingImplementation\":\"IL2CPP\",\"AndroidLibraries\":[],\"AARFiles\":[\"Library/PackageCache/xyz.candycoded.hapticfeedback@4597a0376e/Plugins/Android/com.candycoded.hapticfeedbacklibrary-release.aar\",\"Library/PackageCache/com.unity.ads@4.4.2/Plugins/Android/UnityAds.aar\",\"Assets/Plugins/NativeGallery/Android/NativeGallery.aar\"],\"BuiltinJavaSourcePaths\":[\"com/unity3d/player/UnityPlayerActivity.java\"],\"JavaSourcePaths\":[{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationManagerOreo.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/NotificationCallback.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationManager.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationUtilities.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationRestartOnBootReceiver.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.adaptiveperformance.samsung.android/Runtime/Plugins/Android/com/unity3d/adaptiveperformance/samsung/GameLoadBooster.java\",\"PackageName\":\"com.unity3d.adaptiveperformance.samsung\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/NotificationChannelWrapper.java\",\"PackageName\":\"com.unity.androidnotifications\"}],\"KotlinSourcePaths\":[],\"PlayerPackage\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer\",\"PlayerPackageTools\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\",\"SymlinkSources\":false,\"InstallIntoBuildsFolder\":false,\"UnityPath\":\"\",\"UnityProjectPath\":\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game\",\"Dependencies\":[]}},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.4f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build.gradle\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle.properties\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/local.properties\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/settings.gradle\"],\"inputs\":[\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/mainTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/launcherTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/baseProjectTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/gradleTemplate.properties\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/libTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/settingsTemplate.gradle\"],\"targetDirectories\":[]}}",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_3o7u.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1352
+      "DebugActionIndex": 1351
     },
     {
       "Annotation": "ActionGenerateProjectFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+5 others)",
@@ -28116,11 +28101,11 @@
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/settings.gradle"
       ],
       "ToBuildDependencies": [
-        1352
+        1351
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1353
+      "DebugActionIndex": 1352
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt",
@@ -28131,7 +28116,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt"
       ],
-      "DebugActionIndex": 1354
+      "DebugActionIndex": 1353
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -28142,7 +28127,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 1355
+      "DebugActionIndex": 1354
     },
     {
       "Annotation": "WriteText C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/JavaPluginPreloader.java",
@@ -28153,7 +28138,7 @@
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/JavaPluginPreloader.java"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1356
+      "DebugActionIndex": 1355
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -28164,7 +28149,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 1357
+      "DebugActionIndex": 1356
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/ids.xml",
@@ -28175,7 +28160,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 1358
+      "DebugActionIndex": 1357
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml",
@@ -28186,7 +28171,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1359
+      "DebugActionIndex": 1358
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml",
@@ -28197,7 +28182,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1360
+      "DebugActionIndex": 1359
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml",
@@ -28208,7 +28193,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1361
+      "DebugActionIndex": 1360
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -28219,7 +28204,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1362
+      "DebugActionIndex": 1361
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -28230,7 +28215,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1363
+      "DebugActionIndex": 1362
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -28241,7 +28226,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1364
+      "DebugActionIndex": 1363
     },
     {
       "Annotation": "WriteText C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
@@ -28252,7 +28237,7 @@
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1365
+      "DebugActionIndex": 1364
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -28263,7 +28248,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1366
+      "DebugActionIndex": 1365
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -28274,7 +28259,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1367
+      "DebugActionIndex": 1366
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -28285,7 +28270,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 1368
+      "DebugActionIndex": 1367
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -28296,7 +28281,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 1369
+      "DebugActionIndex": 1368
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -28307,7 +28292,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1370
+      "DebugActionIndex": 1369
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -28318,7 +28303,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1371
+      "DebugActionIndex": 1370
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -28329,7 +28314,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 1372
+      "DebugActionIndex": 1371
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -28340,7 +28325,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1373
+      "DebugActionIndex": 1372
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -28351,18 +28336,18 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1374
+      "DebugActionIndex": 1373
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.GenerateManifests+Arguments\":{\"Configuration\":{\"PackageName\":\"com.AMRN.BallDodge\",\"TargetSDKVersion\":33,\"LauncherManifestTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer\\\\Apk\\\\LauncherManifest.xml\",\"LibraryManifestTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer\\\\Apk\\\\UnityManifest.xml\",\"LauncherManifestPath\":\"launcher\\\\src\\\\main\\\\AndroidManifest.xml\",\"LibraryManifestPath\":\"unityLibrary\\\\src\\\\main\\\\AndroidManifest.xml\",\"TVCompatibility\":false,\"BannerEnabled\":true,\"IsGame\":true,\"PreferredInstallLocation\":\"PreferExternal\",\"TextureSupport\":\"Generic\",\"GamepadSupportLevel\":\"SupportsDPad\",\"TargetDevices\":\"PhonesTabletsAndTVDevicesOnly\",\"SupportedAspectRatioMode\":1,\"MaxAspectRatio\":2.1,\"ForceInternetPermission\":false,\"UseLowAccuracyLocation\":true,\"ForceSDCardPermission\":false,\"PreserveFramebufferAlpha\":false,\"DefaultInterfaceOrientation\":\"LandscapeLeft\",\"AllowedAutorotateToPortrait\":false,\"AllowedAutorotateToPortraitUpsideDown\":false,\"AllowedAutorotateToLandscapeLeft\":true,\"AllowedAutorotateToLandscapeRight\":false,\"ARCoreEnabled\":false,\"SplashScreenScale\":\"Center\",\"VREnabled\":false,\"RenderOutsideSafeArea\":true,\"GraphicsDevices\":[\"Vulkan\",\"OpenGLES3\"],\"OpenGLRequireES31\":false,\"OpenGLRequireES31AEP\":false,\"OpenGLRequireES32\":false,\"StartInFullscreen\":true,\"ChromeOSInputEmulation\":true,\"DefaultWindowWidth\":1920,\"DefaultWindowHeight\":1080,\"MinimumWindowWidth\":400,\"MinimumWindowHeight\":300,\"ResizableWindow\":false,\"FullScreenMode\":\"FullScreenWindow\"},\"Services\":{\"EnableUnityConnect\":true,\"EnablePerformanceReporting\":false,\"EnableAnalytics\":false,\"EnableCrashReporting\":false},\"ProjectPath\":\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"FeatureChecklist\":[\"Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/CandyCoded.HapticFeedback.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/CandyCoded.HapticFeedback-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/NativeGallery.Runtime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance.Google.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance.Samsung.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.Notifications.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.Profiling.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Advertisements-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt\"],\"Development\":false,\"UsingObb\":false,\"GradleResourcesInformation\":{\"TargetSDKVersion\":33,\"RoundIconsAvailable\":false,\"RoundIconsSupported\":true,\"AdaptiveIconsSupported\":true,\"AdaptiveIconsAvailable\":false},\"LauncherManifestDiagnosticsPath\":\"Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt\",\"LibraryManifestDiagnosticsPath\":\"Library/Bee/artifacts/Android/Manifest/LibraryManifestDiag.txt\"},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.GenerateManifests\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.4f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt\",\"Library/Bee/artifacts/Android/Manifest/LibraryManifestDiag.txt\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml\"],\"inputs\":[\"Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/CandyCoded.HapticFeedback.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/CandyCoded.HapticFeedback-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/NativeGallery.Runtime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance.Google.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance.Samsung.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.Notifications.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.Profiling.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Advertisements-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/LauncherManifest.xml\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/UnityManifest.xml\"],\"targetDirectories\":[]}}",
+      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.GenerateManifests+Arguments\":{\"Configuration\":{\"PackageName\":\"com.AMRN.BallDodge\",\"TargetSDKVersion\":33,\"LauncherManifestTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer\\\\Apk\\\\LauncherManifest.xml\",\"LibraryManifestTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer\\\\Apk\\\\UnityManifest.xml\",\"LauncherManifestPath\":\"launcher\\\\src\\\\main\\\\AndroidManifest.xml\",\"LibraryManifestPath\":\"unityLibrary\\\\src\\\\main\\\\AndroidManifest.xml\",\"TVCompatibility\":false,\"BannerEnabled\":true,\"IsGame\":true,\"PreferredInstallLocation\":\"PreferExternal\",\"TextureSupport\":\"Generic\",\"GamepadSupportLevel\":\"SupportsDPad\",\"TargetDevices\":\"AllDevices\",\"SupportedAspectRatioMode\":1,\"MaxAspectRatio\":2.1,\"ForceInternetPermission\":false,\"UseLowAccuracyLocation\":true,\"ForceSDCardPermission\":false,\"PreserveFramebufferAlpha\":false,\"DefaultInterfaceOrientation\":\"LandscapeLeft\",\"AllowedAutorotateToPortrait\":false,\"AllowedAutorotateToPortraitUpsideDown\":false,\"AllowedAutorotateToLandscapeLeft\":true,\"AllowedAutorotateToLandscapeRight\":false,\"ARCoreEnabled\":false,\"SplashScreenScale\":\"Center\",\"VREnabled\":false,\"RenderOutsideSafeArea\":true,\"GraphicsDevices\":[\"Vulkan\",\"OpenGLES3\"],\"OpenGLRequireES31\":false,\"OpenGLRequireES31AEP\":false,\"OpenGLRequireES32\":false,\"StartInFullscreen\":true,\"ChromeOSInputEmulation\":true,\"DefaultWindowWidth\":1920,\"DefaultWindowHeight\":1080,\"MinimumWindowWidth\":400,\"MinimumWindowHeight\":300,\"ResizableWindow\":false,\"FullScreenMode\":\"FullScreenWindow\"},\"Services\":{\"EnableUnityConnect\":true,\"EnablePerformanceReporting\":false,\"EnableAnalytics\":false,\"EnableCrashReporting\":false},\"ProjectPath\":\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"FeatureChecklist\":[\"Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/CandyCoded.HapticFeedback.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/CandyCoded.HapticFeedback-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/NativeGallery.Runtime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance.Google.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance.Samsung.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.Notifications.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.Profiling.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Advertisements-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt\"],\"Development\":false,\"UsingObb\":false,\"GradleResourcesInformation\":{\"TargetSDKVersion\":33,\"RoundIconsAvailable\":false,\"RoundIconsSupported\":true,\"AdaptiveIconsSupported\":true,\"AdaptiveIconsAvailable\":false},\"LauncherManifestDiagnosticsPath\":\"Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt\",\"LibraryManifestDiagnosticsPath\":\"Library/Bee/artifacts/Android/Manifest/LibraryManifestDiag.txt\"},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.GenerateManifests\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.4f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt\",\"Library/Bee/artifacts/Android/Manifest/LibraryManifestDiag.txt\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml\",\"C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml\"],\"inputs\":[\"Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/CandyCoded.HapticFeedback.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/CandyCoded.HapticFeedback-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/NativeGallery.Runtime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance.Google.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance.Samsung.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.Notifications.Android-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.Profiling.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Advertisements-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/LauncherManifest.xml\",\"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/UnityManifest.xml\"],\"targetDirectories\":[]}}",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1375
+      "DebugActionIndex": 1374
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -28482,11 +28467,11 @@
         120,
         122,
         124,
-        1375
+        1374
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1376
+      "DebugActionIndex": 1375
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -28504,7 +28489,7 @@
         27
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1377
+      "DebugActionIndex": 1376
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o",
@@ -28518,10 +28503,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1377
+        1376
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1378
+      "DebugActionIndex": 1377
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -28562,7 +28547,7 @@
         27
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1379
+      "DebugActionIndex": 1378
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o",
@@ -28576,10 +28561,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1379
+        1378
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1380
+      "DebugActionIndex": 1379
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so",
@@ -28596,11 +28581,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1378,
-        1380
+        1377,
+        1379
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1381
+      "DebugActionIndex": 1380
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so",
@@ -28613,10 +28598,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1381
+        1380
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1382
+      "DebugActionIndex": 1381
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so",
@@ -28629,10 +28614,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1382
+        1381
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1383
+      "DebugActionIndex": 1382
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so",
@@ -28645,10 +28630,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1381
+        1380
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1384
+      "DebugActionIndex": 1383
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -28663,11 +28648,11 @@
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1383,
-        1384
+        1382,
+        1383
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1385
+      "DebugActionIndex": 1384
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -28681,10 +28666,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1377
+        1376
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1386
+      "DebugActionIndex": 1385
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -28698,10 +28683,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1379
+        1378
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1387
+      "DebugActionIndex": 1386
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -28718,11 +28703,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1386,
-        1387
+        1385,
+        1386
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1388
+      "DebugActionIndex": 1387
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -28735,10 +28720,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1388
+        1387
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1389
+      "DebugActionIndex": 1388
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -28751,10 +28736,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1389
+        1388
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1390
+      "DebugActionIndex": 1389
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -28767,10 +28752,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1388
+        1387
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1391
+      "DebugActionIndex": 1390
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -28785,11 +28770,11 @@
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1390,
-        1391
+        1389,
+        1390
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1392
+      "DebugActionIndex": 1391
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -28800,7 +28785,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1393
+      "DebugActionIndex": 1392
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libil2cpp.so",
@@ -28814,7 +28799,7 @@
       "ToBuildDependencies": [
         563
       ],
-      "DebugActionIndex": 1394
+      "DebugActionIndex": 1393
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -28826,9 +28811,9 @@
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1382
+        1381
       ],
-      "DebugActionIndex": 1395
+      "DebugActionIndex": 1394
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -28839,7 +28824,7 @@
       "Outputs": [
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1396
+      "DebugActionIndex": 1395
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -28853,7 +28838,7 @@
       "ToBuildDependencies": [
         1005
       ],
-      "DebugActionIndex": 1397
+      "DebugActionIndex": 1396
     },
     {
       "Annotation": "CopyFiles C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -28865,9 +28850,9 @@
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1389
+        1388
       ],
-      "DebugActionIndex": 1398
+      "DebugActionIndex": 1397
     },
     {
       "Annotation": "Zipping C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols -> C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/symbols.zip",
@@ -28885,16 +28870,16 @@
         "C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/symbols.zip"
       ],
       "ToBuildDependencies": [
+        1392,
         1393,
         1394,
         1395,
         1396,
-        1397,
-        1398
+        1397
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1399
+      "DebugActionIndex": 1398
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_obqk.info",
@@ -28905,7 +28890,7 @@
         "Library/Bee/artifacts/csharpactions/unity_app_guid_obqk.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1400
+      "DebugActionIndex": 1399
     },
     {
       "Annotation": "GuidGenerator C:/Users/amnoo/Documents/Uni/Mobile/Mobile-Dev/Mobile Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -28935,11 +28920,11 @@
       ],
       "ToBuildDependencies": [
         125,
-        1400
+        1399
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1401
+      "DebugActionIndex": 1400
     },
     {
       "Annotation": "Player",
@@ -29357,7 +29342,7 @@
         1348,
         1349,
         1350,
-        1351,
+        1352,
         1353,
         1354,
         1355,
@@ -29379,9 +29364,9 @@
         1371,
         1372,
         1373,
-        1374,
-        1376,
-        1385,
+        1375,
+        1384,
+        1391,
         1392,
         1393,
         1394,
@@ -29389,11 +29374,10 @@
         1396,
         1397,
         1398,
-        1399,
-        1401
+        1400
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1402
+      "DebugActionIndex": 1401
     }
   ],
   "FileSignatures": [
@@ -29994,7 +29978,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 1402
+          "Player": 1401
         }
 ,  "DefaultNodes": [
     0

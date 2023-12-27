@@ -210,8 +210,8 @@ extern void PlayerSettings_GyroChange_mCCDFD7244D7C6398B8BCBF0F75D9477EEC02D606 
 extern void PlayerSettings_TakePicture_mF6FE7D384AE817B9BB907C6F1891BCFD3508222A (void);
 // 0x00000063 System.Void PlayerSettings::.ctor()
 extern void PlayerSettings__ctor_m39A0B46BF56FADE4A940721D67D083E3D00FDEF8 (void);
-// 0x00000064 System.Void AndroidNotifController::RequestAuthorisation()
-extern void AndroidNotifController_RequestAuthorisation_m8B6811F52CA2E2C27ABA89FCF4886F5624858C76 (void);
+// 0x00000064 System.Void AndroidNotifController::Start()
+extern void AndroidNotifController_Start_m01B764F293CF88E58AF66CAA55A70B48B5E7EE4E (void);
 // 0x00000065 System.Void AndroidNotifController::RegisterNotificationChannel()
 extern void AndroidNotifController_RegisterNotificationChannel_m4088BB6EB7201EE14C1FEF3FD6E20DEAFE2B110A (void);
 // 0x00000066 System.Void AndroidNotifController::SendNotification(System.String,System.String,System.Int32)
@@ -1356,7 +1356,7 @@ static Il2CppMethodPointer s_methodPointers[623] =
 	PlayerSettings_GyroChange_mCCDFD7244D7C6398B8BCBF0F75D9477EEC02D606,
 	PlayerSettings_TakePicture_mF6FE7D384AE817B9BB907C6F1891BCFD3508222A,
 	PlayerSettings__ctor_m39A0B46BF56FADE4A940721D67D083E3D00FDEF8,
-	AndroidNotifController_RequestAuthorisation_m8B6811F52CA2E2C27ABA89FCF4886F5624858C76,
+	AndroidNotifController_Start_m01B764F293CF88E58AF66CAA55A70B48B5E7EE4E,
 	AndroidNotifController_RegisterNotificationChannel_m4088BB6EB7201EE14C1FEF3FD6E20DEAFE2B110A,
 	AndroidNotifController_SendNotification_m15B71AF9F6D86796B55E140D5A96D883453DB3BC,
 	AndroidNotifController__ctor_m2D7795FCE4E2541C746817C704D7B8AF5F1AA808,
@@ -2019,7 +2019,7 @@ static const int32_t s_InvokerIndices[623] =
 	4280,
 	4280,
 	4280,
-	6368,
+	4280,
 	4280,
 	991,
 	4280,
