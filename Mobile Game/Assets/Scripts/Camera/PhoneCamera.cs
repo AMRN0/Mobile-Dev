@@ -1,9 +1,8 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using System.IO;
 using UnityEngine.SceneManagement;
-using NativeGalleryNamespace;
+using UnityEngine.Android;
 
 public class PhoneCamera : MonoBehaviour
 {
@@ -16,10 +15,13 @@ public class PhoneCamera : MonoBehaviour
 
     public Material material;
 
-    private void Awake()
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSplashScreen)]
+    private static void Awake()
     {
         NativeGallery.Permission readPermission = NativeGallery.CheckPermission(NativeGallery.PermissionType.Read, NativeGallery.MediaType.Image);
         NativeGallery.Permission writePermission = NativeGallery.CheckPermission(NativeGallery.PermissionType.Write, NativeGallery.MediaType.Image);
+
+        _ = WebCamTexture.devices;
 
         if (readPermission == NativeGallery.Permission.Denied || writePermission == NativeGallery.Permission.Denied)
         {
@@ -96,7 +98,7 @@ public class PhoneCamera : MonoBehaviour
     {
         NativeGallery.GetImageFromGallery((callback) =>
         {
-            Texture2D texture = NativeGallery.LoadImageAtPath(callback, 2);
+            Texture2D texture = NativeGallery.LoadImageAtPath(callback, 2, true, false, true);
             material.mainTexture = texture;
 
         }, "Select image to use as texture", "image/*");
@@ -120,7 +122,8 @@ public class PhoneCamera : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
         Texture2D photo = new(backCam.width, backCam.height);
-        photo.SetPixels(backCam.GetPixels());
+
+        photo.SetPixels32(backCam.GetPixels32(), 0);
         photo.Apply();
 
         NativeGallery.SaveImageToGallery(photo, "game", "pic");

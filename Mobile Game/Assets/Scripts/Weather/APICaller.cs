@@ -6,14 +6,11 @@ using SimpleJSON;
 
 public class APICaller : MonoBehaviour
 {
-
     bool routine;
     private const string url = "api.openweathermap.org/data/2.5/weather?";
     private const string apiKey = "6902c2b5343c96b279c56b839be4cef4";
 
-    [SerializeField] TextMeshProUGUI text;
-
-    private float latitude, longitude;
+    private double latitude, longitude;
 
     [SerializeField] GameObject[] conditions;
 
@@ -21,18 +18,24 @@ public class APICaller : MonoBehaviour
     {
         if (!Input.location.isEnabledByUser)
         {
-            text.text = "Location not enabled on device or app does not have permission to access location";
+            //text.text = "Location not enabled on device or app does not have permission to access location";
             print("Location not enabled on device or app does not have permission to access location");
 
-            latitude = 52.44f;
-            longitude = 1.85f;
+            latitude = 52.4862;
+            longitude = -1.8904;
 
             return;
         }
         StartCoroutine(GetLatLong());
     }
+
+
     private void Start()
     {
+        //if (!Input.location.isEnabledByUser)
+        //{
+        //    return;
+        //}
         RequestAPI();
     }
 
@@ -48,13 +51,13 @@ public class APICaller : MonoBehaviour
         }
         if (maxWait < 1)
         {
-            text.text = "Failed to Init location in 10 seconds";
+           // text.text = "Failed to Init location in 10 seconds";
             yield break;
         }
 
         if (Input.location.status == LocationServiceStatus.Failed)
         {
-            text.text = "Failed to Initialise";
+           // text.text = "Failed to Initialise";
             yield break;
         }
         else
@@ -62,18 +65,16 @@ public class APICaller : MonoBehaviour
             latitude = (float)Input.location.lastData.latitude;
             longitude = (float)Input.location.lastData.longitude;
 
-            text.text = "lat: " + latitude + " long: " + longitude;
+           // text.text = latitude + "," + longitude + "," + Input.location.lastData.horizontalAccuracy + "," + Input.location.lastData.verticalAccuracy;
 
             if (latitude.ToString() != "0")
             {
                 Input.location.Stop();
                 StopCoroutine("Start");
-                text.text = Input.location.status + "lat: " + latitude + " long: " + longitude;
+                //text.text = Input.location.status + "lat: " + latitude + " long: " + longitude;
             }
         }
         Input.location.Stop();
-
-        //RequestAPI();
     }
 
     public void RequestAPI()
@@ -89,7 +90,7 @@ public class APICaller : MonoBehaviour
 
         string weatherURL = url + "lat=" + latitude + "&lon=" + longitude + "&appid=" + apiKey;
         print(weatherURL);
-        text.text = weatherURL;
+       // text.text = weatherURL;
         req = UnityWebRequest.Get(weatherURL);
 
         string[] pages = req.url.Split('/');
@@ -98,22 +99,29 @@ public class APICaller : MonoBehaviour
 
         switch (req.result)
         {
-
             case UnityWebRequest.Result.ConnectionError:
-                text.text = "connection error";
+               // text.text = "connection error";
+                conditions[1].SetActive(true);
                 break;
             case UnityWebRequest.Result.DataProcessingError:
                 Debug.LogError(pages[page] + ": Error: " + req.error);
+                conditions[1].SetActive(true);
                 break;
             case UnityWebRequest.Result.ProtocolError:
                 Debug.LogError(pages[page] + ": HTTP Error: " + req.error + " " + name);
+                conditions[1].SetActive(true);
                 break;
             case UnityWebRequest.Result.Success:
                 JSONNode info = JSON.Parse(req.downloadHandler.text);
                 string s = info["weather"].ToString().Substring(info["weather"].ToString().IndexOf("main") + 7, 10);
-                text.text = s.Substring(0, s.IndexOf("\""));
+               // text.text = s.Substring(0, s.IndexOf("\""));
+               string text = s.Substring(0, s.IndexOf("\""));
 
-                switch (text.text)
+                print("The location is: " + info["weather"]["0"]["main"]);
+
+                //text.text = latitude + "," + longitude + "," + Input.location.lastData.horizontalAccuracy + "," + Input.location.lastData.verticalAccuracy;
+
+                switch (text)
                 {
                     case "Thunderstorm":
                         conditions[0].SetActive(true);
@@ -170,6 +178,7 @@ public class APICaller : MonoBehaviour
                         }
                         break;
                     default:
+                        conditions[1].SetActive(true);
                         break;
                 }
                 break;
@@ -177,7 +186,5 @@ public class APICaller : MonoBehaviour
                 break;
         }
         routine = false;
-
     }
-
 }

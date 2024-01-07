@@ -24,7 +24,7 @@ public class EnemySpawner : MonoBehaviour
     {
         GetRandomNum();
 
-        scoreText.text = "Waves Spawned: " + score.ToString();
+        scoreText.text = score.ToString();
     }
 
     // Update is called once per frame
@@ -40,7 +40,7 @@ public class EnemySpawner : MonoBehaviour
 
             score++;
             PlayerPrefs.SetInt("score", score);
-            scoreText.text = "Waves Spawned: " + score.ToString();
+            scoreText.text = score.ToString();
 
         }
     }

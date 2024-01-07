@@ -24,12 +24,12 @@ public class GameOver : MonoBehaviour
         highscoreText.text = "Highscore: " + PlayerPrefs.GetInt("highscore").ToString();
     }
 
-    public void restart()
+    public void Restart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
-    public void mainmenu()
+    public void MainMenu()
     {
         SceneManager.LoadScene(0);
     }
