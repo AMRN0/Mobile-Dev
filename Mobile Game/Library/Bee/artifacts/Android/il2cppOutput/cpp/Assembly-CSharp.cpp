@@ -170,8 +170,6 @@ struct TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 // System.Char[]
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
-// UnityEngine.Color[]
-struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389;
 // UnityEngine.Color32[]
 struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
 // System.Decimal[]
@@ -762,6 +760,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3D340328C9A8D4C7396701777F9419AB7A7D1DD7
 IL2CPP_EXTERN_C String_t* _stringLiteral418EB98724CE6E3E0948FB798076473BA2DCB88A;
 IL2CPP_EXTERN_C String_t* _stringLiteral488BBD09F4A1A1F043A936DD66A4830B2FFA8FFC;
 IL2CPP_EXTERN_C String_t* _stringLiteral49F573D371AD0ACE3EA6E766EE4177DA2021309B;
+IL2CPP_EXTERN_C String_t* _stringLiteral4BD51AC9D037A56D3D587D14D519C5041A80B154;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E5CBEECA1FCB3C3B97C91161A582341DD431B2F;
 IL2CPP_EXTERN_C String_t* _stringLiteral4F2993C30C434C5F8BA708B372A8D4AC4A165185;
 IL2CPP_EXTERN_C String_t* _stringLiteral5225EE496AAB278285733EDA00B46385A27F58CC;
@@ -784,6 +783,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7F85A2723BB62FEF95DD6F8C5F0FF606EA62246A
 IL2CPP_EXTERN_C String_t* _stringLiteral80389578A2E200357ECECEDDAD174D2C91A308F3;
 IL2CPP_EXTERN_C String_t* _stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE;
 IL2CPP_EXTERN_C String_t* _stringLiteral82D6C704462D19E6C8BA27FB1323CC689B77832D;
+IL2CPP_EXTERN_C String_t* _stringLiteral8462B8644B4C0A65E40F9A4D7572B7D3CBDB2F7E;
 IL2CPP_EXTERN_C String_t* _stringLiteral860769D0BF922CAC1A0765FD2831F6BB006F4713;
 IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
 IL2CPP_EXTERN_C String_t* _stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7;
@@ -941,7 +941,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2;
 struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3;
 
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
-struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389;
 struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
 struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 struct ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78;
@@ -6447,35 +6446,35 @@ struct WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5  : public Ru
 		#endif
 	}
 };
-// UnityEngine.Color[]
-struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389  : public RuntimeArray
+// UnityEngine.Color32[]
+struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259  : public RuntimeArray
 {
-	ALIGN_FIELD (8) Color_tD001788D726C3A7F1379BEED0260B9591F440C1F m_Items[1];
+	ALIGN_FIELD (8) Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B m_Items[1];
 
-	inline Color_tD001788D726C3A7F1379BEED0260B9591F440C1F GetAt(il2cpp_array_size_t index) const
+	inline Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B GetAt(il2cpp_array_size_t index) const
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items[index];
 	}
-	inline Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* GetAddressAt(il2cpp_array_size_t index)
+	inline Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items + index;
 	}
-	inline void SetAt(il2cpp_array_size_t index, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F value)
+	inline void SetAt(il2cpp_array_size_t index, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B value)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 	}
-	inline Color_tD001788D726C3A7F1379BEED0260B9591F440C1F GetAtUnchecked(il2cpp_array_size_t index) const
+	inline Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B GetAtUnchecked(il2cpp_array_size_t index) const
 	{
 		return m_Items[index];
 	}
-	inline Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	inline Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
 		return m_Items + index;
 	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F value)
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B value)
 	{
 		m_Items[index] = value;
 	}
@@ -6964,39 +6963,6 @@ struct WaitForSecondsU5BU5D_t2A9038ECB6E643745AEF2AD9A4F7FFD3D272186E  : public 
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
-// UnityEngine.Color32[]
-struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259  : public RuntimeArray
-{
-	ALIGN_FIELD (8) Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B m_Items[1];
-
-	inline Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B value)
-	{
-		m_Items[index] = value;
-	}
-};
 // UnityEngine.Vector2[]
 struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA  : public RuntimeArray
 {
@@ -7211,10 +7177,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Texture2D::.ctor(System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D__ctor_m3BA82E87442B7F69E118477069AE11101B9DF796 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, int32_t ___width0, int32_t ___height1, const RuntimeMethod* method) ;
-// UnityEngine.Color[] UnityEngine.WebCamTexture::GetPixels()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* WebCamTexture_GetPixels_mA2B07D6D761AA724A6AB1ED04BE0FA195D830FDC (WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Texture2D::SetPixels(UnityEngine.Color[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_SetPixels_mAE0CDFA15FA96F840D7FFADC31405D8AF20D9073 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___colors0, const RuntimeMethod* method) ;
+// UnityEngine.Color32[] UnityEngine.WebCamTexture::GetPixels32()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* WebCamTexture_GetPixels32_mCB0ABCB9D7BCB7ECABF7BF911946DE25C8F26B58 (WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Texture2D::SetPixels32(UnityEngine.Color32[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_SetPixels32_m436DA034F0483F6527B7C4B74744A02ABE2EA276 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___colors0, int32_t ___miplevel1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Texture2D::Apply()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, const RuntimeMethod* method) ;
 // NativeGallery/Permission NativeGallery::SaveImageToGallery(UnityEngine.Texture2D,System.String,System.String,NativeGallery/MediaSaveCallback)
@@ -7375,14 +7341,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidNotification_set_FireTime_mF3EF2E73DDC86E2A3C385005F6678DBDFF6BE340_inline (AndroidNotification_t870D188EFDC943952EB96ECD295B41095EAA7E18* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___value0, const RuntimeMethod* method) ;
 // System.Int32 Unity.Notifications.Android.AndroidNotificationCenter::SendNotification(Unity.Notifications.Android.AndroidNotification,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidNotificationCenter_SendNotification_mD7092A8D42FA2D18CB393B73205358930D4B96D4 (AndroidNotification_t870D188EFDC943952EB96ECD295B41095EAA7E18 ___notification0, String_t* ___channelId1, const RuntimeMethod* method) ;
+// Unity.Notifications.Android.NotificationStatus Unity.Notifications.Android.AndroidNotificationCenter::CheckScheduledNotificationStatus(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidNotificationCenter_CheckScheduledNotificationStatus_mD89FB9EEFB9C2C79777F7F61BBFFEBDD02E9E1C4 (int32_t ___id0, const RuntimeMethod* method) ;
+// System.Void Unity.Notifications.Android.AndroidNotificationCenter::CancelAllScheduledNotifications()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNotificationCenter_CancelAllScheduledNotifications_mE67A0AC2F4F3B1F1F119374B1082A7CB87E6A315 (const RuntimeMethod* method) ;
+// System.Void AndroidNotifController::SendNotification(System.String,System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNotifController_SendNotification_m15B71AF9F6D86796B55E140D5A96D883453DB3BC (AndroidNotifController_t9E5779A0323862F78990D8C6EF3FB64456ECD1AD* __this, String_t* ___title0, String_t* ___text1, int32_t ___fireTimeInSeconds2, const RuntimeMethod* method) ;
 // System.Void AndroidNotifController::RegisterNotificationChannel()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNotifController_RegisterNotificationChannel_m4088BB6EB7201EE14C1FEF3FD6E20DEAFE2B110A (AndroidNotifController_t9E5779A0323862F78990D8C6EF3FB64456ECD1AD* __this, const RuntimeMethod* method) ;
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Application::add_quitting(System.Action)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_add_quitting_m0FEF9560C9CB99F40EEE8585455B4461101F70F4 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
-// System.Void AndroidNotifController::SendNotification(System.String,System.String,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNotifController_SendNotification_m15B71AF9F6D86796B55E140D5A96D883453DB3BC (AndroidNotifController_t9E5779A0323862F78990D8C6EF3FB64456ECD1AD* __this, String_t* ___title0, String_t* ___text1, int32_t ___fireTimeInSeconds2, const RuntimeMethod* method) ;
 // System.Void NativeNotifiController::Quitting()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNotifiController_Quitting_mF7E91F7FBE3EBA7675D24AA470167790AC89708B (NativeNotifiController_tEFAD7FE198AB34EBCDE8F4FC314960F034479BD4* __this, const RuntimeMethod* method) ;
 // UnityEngine.LocationService UnityEngine.Input::get_location()
@@ -9049,16 +9019,16 @@ IL_0032:
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_11 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
 		NullCheck(L_11);
 		Texture2D__ctor_m3BA82E87442B7F69E118477069AE11101B9DF796(L_11, L_7, L_10, NULL);
-		// photo.SetPixels(backCam.GetPixels());
+		// photo.SetPixels32(backCam.GetPixels32(), 0);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_12 = L_11;
 		PhoneCamera_t470079F18356FD3BAB475C5EC57AEC8302DCFFC4* L_13 = V_1;
 		NullCheck(L_13);
 		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_14 = L_13->___backCam_5;
 		NullCheck(L_14);
-		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_15;
-		L_15 = WebCamTexture_GetPixels_mA2B07D6D761AA724A6AB1ED04BE0FA195D830FDC(L_14, NULL);
+		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_15;
+		L_15 = WebCamTexture_GetPixels32_mCB0ABCB9D7BCB7ECABF7BF911946DE25C8F26B58(L_14, NULL);
 		NullCheck(L_12);
-		Texture2D_SetPixels_mAE0CDFA15FA96F840D7FFADC31405D8AF20D9073(L_12, L_15, NULL);
+		Texture2D_SetPixels32_m436DA034F0483F6527B7C4B74744A02ABE2EA276(L_12, L_15, 0, NULL);
 		// photo.Apply();
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = L_12;
 		NullCheck(L_16);
@@ -10924,8 +10894,8 @@ IL_0049:
 		}
 	}
 	{
-		// PlayerPrefs.SetInt("picture", 1);
-		PlayerPrefs_SetInt_mDC9617BFD56FEC670626A1002D9A5FE963D8D175(_stringLiteral5E89DFB28C21F05C783FF6C52C1E49EC5D97B20C, 1, NULL);
+		// PlayerPrefs.SetInt("picture", 0);
+		PlayerPrefs_SetInt_mDC9617BFD56FEC670626A1002D9A5FE963D8D175(_stringLiteral5E89DFB28C21F05C783FF6C52C1E49EC5D97B20C, 0, NULL);
 	}
 
 IL_0060:
@@ -11311,13 +11281,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNotifController_SendNotification_
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidNotificationCenter_t2CFF9EDE8FB85C6993B260A6A9E6225D384D173A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4BD51AC9D037A56D3D587D14D519C5041A80B154);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8462B8644B4C0A65E40F9A4D7572B7D3CBDB2F7E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAB566BB55645ACE2B2707053AEBE64B51E798A6F);
 		s_Il2CppMethodInitialized = true;
 	}
 	AndroidNotification_t870D188EFDC943952EB96ECD295B41095EAA7E18 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_1;
-	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_1 = 0;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_2;
+	memset((&V_2), 0, sizeof(V_2));
 	{
 		// AndroidNotification notification = new();
 		il2cpp_codegen_initobj((&V_0), sizeof(AndroidNotification_t870D188EFDC943952EB96ECD295B41095EAA7E18));
@@ -11331,16 +11304,65 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNotifController_SendNotification_
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_2;
 		L_2 = DateTime_get_Now_mC336498972C48439ADCD5C50D35FAE0F2A48B0F0(NULL);
-		V_1 = L_2;
+		V_2 = L_2;
 		int32_t L_3 = ___fireTimeInSeconds2;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4;
-		L_4 = DateTime_AddSeconds_mC5FE3FB22A1295CA747746ECE48B9D4A4B6B2E81((&V_1), ((double)L_3), NULL);
+		L_4 = DateTime_AddSeconds_mC5FE3FB22A1295CA747746ECE48B9D4A4B6B2E81((&V_2), ((double)L_3), NULL);
 		AndroidNotification_set_FireTime_mF3EF2E73DDC86E2A3C385005F6678DBDFF6BE340_inline((&V_0), L_4, NULL);
-		// AndroidNotificationCenter.SendNotification(notification, channelId: "default_channel");
+		// int identifier = AndroidNotificationCenter.SendNotification(notification, channelId: "default_channel");
 		AndroidNotification_t870D188EFDC943952EB96ECD295B41095EAA7E18 L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(AndroidNotificationCenter_t2CFF9EDE8FB85C6993B260A6A9E6225D384D173A_il2cpp_TypeInfo_var);
 		int32_t L_6;
 		L_6 = AndroidNotificationCenter_SendNotification_mD7092A8D42FA2D18CB393B73205358930D4B96D4(L_5, _stringLiteralAB566BB55645ACE2B2707053AEBE64B51E798A6F, NULL);
+		V_1 = L_6;
+		// if (AndroidNotificationCenter.CheckScheduledNotificationStatus(identifier) == NotificationStatus.Scheduled)
+		int32_t L_7 = V_1;
+		int32_t L_8;
+		L_8 = AndroidNotificationCenter_CheckScheduledNotificationStatus_mD89FB9EEFB9C2C79777F7F61BBFFEBDD02E9E1C4(L_7, NULL);
+		if ((((int32_t)L_8) == ((int32_t)1)))
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		// else if (AndroidNotificationCenter.CheckScheduledNotificationStatus(identifier) == NotificationStatus.Delivered)
+		int32_t L_9 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(AndroidNotificationCenter_t2CFF9EDE8FB85C6993B260A6A9E6225D384D173A_il2cpp_TypeInfo_var);
+		int32_t L_10;
+		L_10 = AndroidNotificationCenter_CheckScheduledNotificationStatus_mD89FB9EEFB9C2C79777F7F61BBFFEBDD02E9E1C4(L_9, NULL);
+		if ((!(((uint32_t)L_10) == ((uint32_t)2))))
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		// AndroidNotificationCenter.CancelAllScheduledNotifications();
+		il2cpp_codegen_runtime_class_init_inline(AndroidNotificationCenter_t2CFF9EDE8FB85C6993B260A6A9E6225D384D173A_il2cpp_TypeInfo_var);
+		AndroidNotificationCenter_CancelAllScheduledNotifications_mE67A0AC2F4F3B1F1F119374B1082A7CB87E6A315(NULL);
+		// SendNotification("Its been a while", "Please Come Back", 3000);
+		AndroidNotifController_SendNotification_m15B71AF9F6D86796B55E140D5A96D883453DB3BC(__this, _stringLiteral4BD51AC9D037A56D3D587D14D519C5041A80B154, _stringLiteral8462B8644B4C0A65E40F9A4D7572B7D3CBDB2F7E, ((int32_t)3000), NULL);
+		return;
+	}
+
+IL_0067:
+	{
+		// else if (AndroidNotificationCenter.CheckScheduledNotificationStatus(identifier) == NotificationStatus.Unknown)
+		int32_t L_11 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(AndroidNotificationCenter_t2CFF9EDE8FB85C6993B260A6A9E6225D384D173A_il2cpp_TypeInfo_var);
+		int32_t L_12;
+		L_12 = AndroidNotificationCenter_CheckScheduledNotificationStatus_mD89FB9EEFB9C2C79777F7F61BBFFEBDD02E9E1C4(L_11, NULL);
+		if (L_12)
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		// SendNotification("Its been a while", "Please Come Back", 3000);
+		AndroidNotifController_SendNotification_m15B71AF9F6D86796B55E140D5A96D883453DB3BC(__this, _stringLiteral4BD51AC9D037A56D3D587D14D519C5041A80B154, _stringLiteral8462B8644B4C0A65E40F9A4D7572B7D3CBDB2F7E, ((int32_t)3000), NULL);
+	}
+
+IL_0084:
+	{
 		// }
 		return;
 	}
@@ -11399,10 +11421,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNotifiController_Quitting_mF7E91F7
 	{
 		// print("Application Quitting");
 		MonoBehaviour_print_mED815C779E369787B3E9646A6DE96FBC2944BF0B(_stringLiteral0FEE6D1A43BE52260D322B3E305179666872458D, NULL);
-		// androidNotifController.SendNotification("Come Back", "You need to beat your highscore", 10);
+		// androidNotifController.SendNotification("Come Back", "You need to beat your highscore", 600);
 		AndroidNotifController_t9E5779A0323862F78990D8C6EF3FB64456ECD1AD* L_0 = __this->___androidNotifController_4;
 		NullCheck(L_0);
-		AndroidNotifController_SendNotification_m15B71AF9F6D86796B55E140D5A96D883453DB3BC(L_0, _stringLiteral323497D87A5CBD59740A566C55E6275D8FF14E57, _stringLiteral418EB98724CE6E3E0948FB798076473BA2DCB88A, ((int32_t)10), NULL);
+		AndroidNotifController_SendNotification_m15B71AF9F6D86796B55E140D5A96D883453DB3BC(L_0, _stringLiteral323497D87A5CBD59740A566C55E6275D8FF14E57, _stringLiteral418EB98724CE6E3E0948FB798076473BA2DCB88A, ((int32_t)600), NULL);
 		// }
 		return;
 	}
@@ -11424,6 +11446,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNotifiController_OnApplicationFocu
 	}
 
 IL_0004:
+	{
+		// Quitting();
+		NativeNotifiController_Quitting_mF7E91F7FBE3EBA7675D24AA470167790AC89708B(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void NativeNotifiController::OnApplicationPause(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNotifiController_OnApplicationPause_mE1217C9D4502366E5A27527B7D8786880FCE24A0 (NativeNotifiController_tEFAD7FE198AB34EBCDE8F4FC314960F034479BD4* __this, bool ___pause0, const RuntimeMethod* method) 
+{
+	{
+		// if (!pause) return;
+		bool L_0 = ___pause0;
+		if (L_0)
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		// if (!pause) return;
+		return;
+	}
+
+IL_0004:
+	{
+		// Quitting();
+		NativeNotifiController_Quitting_mF7E91F7FBE3EBA7675D24AA470167790AC89708B(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void NativeNotifiController::OnApplicationQuit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNotifiController_OnApplicationQuit_mDE6F878F6B64965CBCE8AA58856315C7D839CB03 (NativeNotifiController_tEFAD7FE198AB34EBCDE8F4FC314960F034479BD4* __this, const RuntimeMethod* method) 
+{
 	{
 		// Quitting();
 		NativeNotifiController_Quitting_mF7E91F7FBE3EBA7675D24AA470167790AC89708B(__this, NULL);

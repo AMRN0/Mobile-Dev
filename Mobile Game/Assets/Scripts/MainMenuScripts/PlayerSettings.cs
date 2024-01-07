@@ -31,7 +31,7 @@ public class PlayerSettings : MonoBehaviour
 
         if (!PlayerPrefs.HasKey("picture"))
         {
-            PlayerPrefs.SetInt("picture", 1);
+            PlayerPrefs.SetInt("picture", 0);
         }
 
         if (!PlayerPrefs.HasKey("ProfilePic"))

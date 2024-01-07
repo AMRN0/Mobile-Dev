@@ -50,6 +50,9 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.Advertisements.dll:
+    - UnityEngine.Advertisements.Placeholder
+    - UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -169,12 +172,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1650}
     - Class: 114
       Script: {instanceID: 2524}
     - Class: 114
@@ -188,13 +193,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 6414}
+      Script: {instanceID: 6416}
     - Class: 114
-      Script: {instanceID: 6516}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 6592}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 6976}
+      Script: {instanceID: 6978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -235,7 +240,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1650}
     - Class: 114
       Script: {instanceID: 2302}
     - Class: 114
@@ -249,15 +254,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 6414}
+      Script: {instanceID: 6416}
     - Class: 114
-      Script: {instanceID: 6592}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 6976}
+      Script: {instanceID: 6978}
     - Class: 114
-      Script: {instanceID: 7688}
+      Script: {instanceID: 7690}
     - Class: 114
-      Script: {instanceID: 8196}
+      Script: {instanceID: 8198}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -312,7 +317,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1650}
     - Class: 114
       Script: {instanceID: 1652}
     - Class: 114
@@ -342,25 +347,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 6414}
+      Script: {instanceID: 6416}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6472}
     - Class: 114
-      Script: {instanceID: 6592}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 6976}
+      Script: {instanceID: 6978}
     - Class: 114
-      Script: {instanceID: 6990}
+      Script: {instanceID: 6992}
     - Class: 114
-      Script: {instanceID: 7824}
+      Script: {instanceID: 7826}
     - Class: 114
-      Script: {instanceID: 8186}
+      Script: {instanceID: 8188}
     - Class: 114
-      Script: {instanceID: 8208}
+      Script: {instanceID: 8210}
     - Class: 114
-      Script: {instanceID: 8728}
+      Script: {instanceID: 8730}
     - Class: 114
-      Script: {instanceID: 9066}
+      Script: {instanceID: 9068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -406,12 +411,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1650}
     - Class: 114
       Script: {instanceID: 2018}
     - Class: 114
@@ -441,19 +448,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 6414}
+      Script: {instanceID: 6416}
     - Class: 114
-      Script: {instanceID: 6592}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 6846}
+      Script: {instanceID: 6848}
     - Class: 114
-      Script: {instanceID: 6976}
+      Script: {instanceID: 6978}
     - Class: 114
-      Script: {instanceID: 6990}
+      Script: {instanceID: 6992}
     - Class: 114
-      Script: {instanceID: 8208}
+      Script: {instanceID: 8210}
     - Class: 114
-      Script: {instanceID: 8594}
+      Script: {instanceID: 8596}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1791,4 +1798,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/GameScenes/CameraScene.unity
   - Assets/Scenes/GameScenes/MainGame.unity
   - Assets/Scenes/GameScenes/GameOver.unity
-  playerPath: C:/Users/amnoo/Documents/Uni/Mobile/Build Testing/Final Builds/BallDodge8.aab
+  playerPath: C:/Users/amnoo/Documents/Uni/Mobile/other testing/BallDodge.aab

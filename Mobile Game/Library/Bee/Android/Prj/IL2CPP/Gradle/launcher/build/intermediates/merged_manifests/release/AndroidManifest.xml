@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.AMRN.BallDodge"
     android:installLocation="preferExternal"
-    android:versionCode="8"
+    android:versionCode="10"
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="33"
+        android:minSdkVersion="29"
         android:targetSdkVersion="33" />
 
     <supports-screens
@@ -56,6 +56,7 @@
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -111,6 +112,10 @@
             </intent-filter>
         </receiver>
 
+        <meta-data
+            android:name="reschedule_notifications_on_restart"
+            android:value="true" />
+
         <activity
             android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
             android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
@@ -130,7 +135,17 @@
             android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
             android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
             android:hardwareAccelerated="false"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- The space in these forces it to be interpreted as a string vs. int -->
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="\u003" /> <!-- Keep track of which plugin is being used -->
+        <meta-data
+            android:name="com.google.android.gms.games.unityVersion"
+            android:value="\u0030.11.01" />
+
+        <activity
+            android:name="com.google.games.bridge.NativeBridgeActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
     </application>
 
 </manifest>

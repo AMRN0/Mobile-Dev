@@ -19,7 +19,7 @@ public class NativeNotifiController : MonoBehaviour
     void Quitting()
     {
         print("Application Quitting");
-        androidNotifController.SendNotification("Come Back", "You need to beat your highscore", 10);
+        androidNotifController.SendNotification("Come Back", "You need to beat your highscore", 600);
     }
 
     private void OnApplicationFocus(bool focus)
@@ -29,10 +29,15 @@ public class NativeNotifiController : MonoBehaviour
         Quitting();
     }
 
-    //private void OnApplicationPause(bool pause)
-    //{
-    //    if (!pause) return;
+    private void OnApplicationPause(bool pause)
+    {
+        if (!pause) return;
 
-    //    Quitting();
-    //}
+        Quitting();
+    }
+
+    private void OnApplicationQuit()
+    {
+        Quitting();
+    }
 }

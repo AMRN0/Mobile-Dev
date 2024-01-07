@@ -10,7 +10,7 @@
       "apkData": {
         "type": "MAIN",
         "splits": [],
-        "versionCode": 8,
+        "versionCode": 10,
         "versionName": "1.0.0",
         "outputFile": "launcher-release.apk",
         "fullName": "release",

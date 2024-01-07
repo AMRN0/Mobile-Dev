@@ -74,10 +74,10 @@ extern void WebCamTexture_Stop_m6239B5D1E10C53B57BB30E124E3F541EBD46A184 (void);
 extern void WebCamTexture_get_videoRotationAngle_m2BF420A1243F56415BEF82CC84AB4C7B342C991F (void);
 // 0x0000001F System.Boolean UnityEngine.WebCamTexture::get_videoVerticallyMirrored()
 extern void WebCamTexture_get_videoVerticallyMirrored_mDC7525B796A2629927EF113DA199DDE200B1B52A (void);
-// 0x00000020 UnityEngine.Color[] UnityEngine.WebCamTexture::GetPixels()
-extern void WebCamTexture_GetPixels_mA2B07D6D761AA724A6AB1ED04BE0FA195D830FDC (void);
-// 0x00000021 UnityEngine.Color[] UnityEngine.WebCamTexture::GetPixels(System.Int32,System.Int32,System.Int32,System.Int32)
-extern void WebCamTexture_GetPixels_mD30134473515AEA70C9DE43392F2ADD95747237A (void);
+// 0x00000020 UnityEngine.Color32[] UnityEngine.WebCamTexture::GetPixels32()
+extern void WebCamTexture_GetPixels32_mCB0ABCB9D7BCB7ECABF7BF911946DE25C8F26B58 (void);
+// 0x00000021 UnityEngine.Color32[] UnityEngine.WebCamTexture::GetPixels32(UnityEngine.Color32[])
+extern void WebCamTexture_GetPixels32_m7F4F302BE0E517451593C43E3F0D0D1B7840E39E (void);
 // 0x00000022 System.Void UnityEngine.WebCamTexture::Internal_CreateWebCamTexture(UnityEngine.WebCamTexture,System.String,System.Int32,System.Int32,System.Int32)
 extern void WebCamTexture_Internal_CreateWebCamTexture_m507B13BE568DBE34BC4F8429FCCE842734FDEE5C (void);
 // 0x00000023 UnityEngine.Playables.PlayableHandle UnityEngine.Audio.AudioClipPlayable::GetHandle()
@@ -129,8 +129,8 @@ static Il2CppMethodPointer s_methodPointers[42] =
 	WebCamTexture_Stop_m6239B5D1E10C53B57BB30E124E3F541EBD46A184,
 	WebCamTexture_get_videoRotationAngle_m2BF420A1243F56415BEF82CC84AB4C7B342C991F,
 	WebCamTexture_get_videoVerticallyMirrored_mDC7525B796A2629927EF113DA199DDE200B1B52A,
-	WebCamTexture_GetPixels_mA2B07D6D761AA724A6AB1ED04BE0FA195D830FDC,
-	WebCamTexture_GetPixels_mD30134473515AEA70C9DE43392F2ADD95747237A,
+	WebCamTexture_GetPixels32_mCB0ABCB9D7BCB7ECABF7BF911946DE25C8F26B58,
+	WebCamTexture_GetPixels32_m7F4F302BE0E517451593C43E3F0D0D1B7840E39E,
 	WebCamTexture_Internal_CreateWebCamTexture_m507B13BE568DBE34BC4F8429FCCE842734FDEE5C,
 	AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C44,
 	AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83,
@@ -158,48 +158,48 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[6] =
 };
 static const int32_t s_InvokerIndices[42] = 
 {
-	6246,
-	6368,
-	6368,
-	6317,
-	6317,
-	1951,
-	3382,
-	6317,
-	6246,
-	6317,
-	6246,
-	6368,
-	6368,
-	3456,
-	3436,
-	1951,
-	3456,
-	1951,
-	3436,
-	3382,
-	4222,
-	3494,
-	4280,
-	4179,
-	4108,
-	6338,
-	973,
-	4280,
-	4280,
-	4156,
-	4108,
-	4179,
-	552,
-	4717,
-	4188,
+	6245,
+	6367,
+	6367,
+	6316,
+	6316,
+	1950,
+	3381,
+	6316,
+	6245,
+	6316,
+	6245,
+	6367,
+	6367,
+	3455,
+	3435,
+	1950,
+	3455,
+	1950,
+	3435,
+	3381,
+	4221,
+	3493,
+	4279,
+	4178,
+	4107,
+	6337,
+	972,
+	4279,
+	4279,
+	4155,
+	4107,
+	4178,
+	3058,
+	4716,
+	4187,
+	2409,
+	4187,
 	2410,
-	4188,
-	2411,
-	3436,
-	3436,
-	1951,
-	1965,
+	3435,
+	3435,
+	1950,
+	1964,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule = 

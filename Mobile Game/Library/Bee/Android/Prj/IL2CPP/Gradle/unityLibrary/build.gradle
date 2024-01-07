@@ -6,6 +6,7 @@ dependencies {
     implementation(name: 'com.candycoded.hapticfeedbacklibrary-release', ext:'aar')
     implementation(name: 'UnityAds', ext:'aar')
     implementation(name: 'NativeGallery', ext:'aar')
+    implementation project('GooglePlayGamesManifest.androidlib')
 
 }
 
@@ -19,12 +20,12 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 33
+        minSdkVersion 29
         targetSdkVersion 33
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
-        versionCode 8
+        versionCode 10
         versionName '1.0.0'
         consumerProguardFiles 'proguard-unity.txt'
     }

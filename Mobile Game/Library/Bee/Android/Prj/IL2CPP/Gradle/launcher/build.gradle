@@ -14,13 +14,13 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 33
+        minSdkVersion 29
         targetSdkVersion 33
         applicationId 'com.AMRN.BallDodge'
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
-        versionCode 8
+        versionCode 10
         versionName '1.0.0'
     }
 

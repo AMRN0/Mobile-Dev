@@ -35,7 +35,21 @@ public class AndroidNotifController : MonoBehaviour
         notification.Text = text;
         notification.FireTime = System.DateTime.Now.AddSeconds(fireTimeInSeconds);
 
-        AndroidNotificationCenter.SendNotification(notification, channelId: "default_channel");
+         int identifier = AndroidNotificationCenter.SendNotification(notification, channelId: "default_channel");
+
+        if (AndroidNotificationCenter.CheckScheduledNotificationStatus(identifier) == NotificationStatus.Scheduled)
+        {
+
+        }
+        else if (AndroidNotificationCenter.CheckScheduledNotificationStatus(identifier) == NotificationStatus.Delivered)
+        {
+            AndroidNotificationCenter.CancelAllScheduledNotifications();
+            SendNotification("Its been a while", "Please Come Back", 3000);
+        }
+        else if (AndroidNotificationCenter.CheckScheduledNotificationStatus(identifier) == NotificationStatus.Unknown)
+        {
+            SendNotification("Its been a while", "Please Come Back", 3000);
+        }
     }
 }
 #endif

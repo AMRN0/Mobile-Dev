@@ -122,7 +122,8 @@ public class PhoneCamera : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
         Texture2D photo = new(backCam.width, backCam.height);
-        photo.SetPixels(backCam.GetPixels());
+
+        photo.SetPixels32(backCam.GetPixels32(), 0);
         photo.Apply();
 
         NativeGallery.SaveImageToGallery(photo, "game", "pic");

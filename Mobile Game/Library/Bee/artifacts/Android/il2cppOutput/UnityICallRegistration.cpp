@@ -4462,9 +4462,9 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_WebCamTexture_Stop();
 		Register_UnityEngine_WebCamTexture_Stop();
 
-		//UnityEngine.Color[] UnityEngine.WebCamTexture::GetPixels(System.Int32,System.Int32,System.Int32,System.Int32)
-		void Register_UnityEngine_WebCamTexture_GetPixels();
-		Register_UnityEngine_WebCamTexture_GetPixels();
+		//UnityEngine.Color32[] UnityEngine.WebCamTexture::GetPixels32(UnityEngine.Color32[])
+		void Register_UnityEngine_WebCamTexture_GetPixels32();
+		Register_UnityEngine_WebCamTexture_GetPixels32();
 
 		//UnityEngine.WebCamDevice[] UnityEngine.WebCamTexture::get_devices()
 		void Register_UnityEngine_WebCamTexture_get_devices();
